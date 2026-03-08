@@ -4,28 +4,28 @@ const questions = {
       {
         "id": 1,
         "type": "multiple-choice",
-        "stimulus": "<p>5% +&nbsp;<sup>3</sup>⁄<sub>4</sub>&nbsp;− 0,5 +&nbsp;<sup>1</sup>⁄<sub>2</sub>&nbsp;= …</p>",
+        "stimulus": "<p>150% + 2 &times; 0,4 &minus; <sup>3</sup>&frasl;<sub>5</sub> = …</p>",
         "text": "<p>Hitunglah hasil dari pertanyaan tersebut!</p>",
         "options": [
           {
             "id": "A",
-            "text": "&nbsp;<sup>1</sup>⁄<sub>2</sub>"
+            "text": "<sup>17</sup>&frasl;<sub>10</sub>"
           },
           {
             "id": "B",
-            "text": "&nbsp;<sup>3</sup>⁄<sub>4</sub>"
+            "text": "<sup>19</sup>&frasl;<sub>10</sub>"
           },
           {
             "id": "C",
-            "text": "&nbsp;1"
+            "text": "<sup>21</sup>&frasl;<sub>10</sub>"
           },
           {
             "id": "D",
-            "text": "&nbsp;<sup>5</sup>⁄<sub>4</sub>"
+            "text": "<sup>23</sup>&frasl;<sub>10</sub>"
           }
         ],
         "image": null,
-        "correctAnswer": "C"
+        "correctAnswer": "B"
       },
       {
         "id": 2,
@@ -788,28 +788,28 @@ const questions = {
       {
         "id": 1,
         "type": "multiple-choice",
-        "stimulus": "<p>200% −&nbsp;<sup>5</sup>⁄<sub>3</sub>&nbsp;+ 0,5 ×&nbsp;<sup>2</sup>⁄<sub>3</sub>&nbsp;= …</p>",
+        "stimulus": "<p>120% + <sup>3</sup>&frasl;<sub>4</sub> &times; 2 &minus; 1,5 = …</p>",
         "text": "<p>Hitunglah hasil dari pertanyaan tersebut!</p>",
         "options": [
           {
             "id": "A",
-            "text": "&nbsp;<sup>2</sup>⁄<sub>3</sub>"
+            "text": "<sup>6</sup>&frasl;<sub>5</sub>"
           },
           {
             "id": "B",
-            "text": "&nbsp;1"
+            "text": "<sup>7</sup>&frasl;<sub>5</sub>"
           },
           {
             "id": "C",
-            "text": "&nbsp;<sup>4</sup>⁄<sub>3</sub>"
+            "text": "<sup>3</sup>&frasl;<sub>2</sub>"
           },
           {
             "id": "D",
-            "text": "&nbsp;<sup>5</sup>⁄<sub>3</sub>"
+            "text": "<sup>9</sup>&frasl;<sub>5</sub>"
           }
         ],
         "image": null,
-        "correctAnswer": "A"
+        "correctAnswer": "D"
       },
       {
         "id": 2,
@@ -1571,28 +1571,28 @@ const questions = {
       {
         "id": 1,
         "type": "multiple-choice",
-        "stimulus": "<p>50% + 1<sup>1</sup>⁄<sub>4</sub>&nbsp;− 0,75 +&nbsp;<sup>3</sup>⁄<sub>4</sub>&nbsp;= …</p>",
+        "stimulus": "<p>200% &minus; <sup>3</sup>&frasl;<sub>5</sub> + 2 &times; 0,3 = …</p>",
         "text": "<p>Hitunglah hasil dari pertanyaan tersebut!</p>",
         "options": [
           {
             "id": "A",
-            "text": "1"
-          },
-          {
-            "id": "B",
-            "text": "&nbsp;1<sup>3</sup>⁄<sub>4</sub>"
-          },
-          {
-            "id": "C",
             "text": "2"
           },
           {
+            "id": "B",
+            "text": "<sup>11</sup>&frasl;<sub>5</sub>"
+          },
+          {
+            "id": "C",
+            "text": "<sup>12</sup>&frasl;<sub>5</sub>"
+          },
+          {
             "id": "D",
-            "text": "2<sup>1</sup>⁄<sub>4</sub>"
+            "text": "<sup>13</sup>&frasl;<sub>5</sub>"
           }
         ],
         "image": null,
-        "correctAnswer": "B"
+        "correctAnswer": "C"
       },
       {
         "id": 2,
@@ -2356,28 +2356,28 @@ const questions = {
       {
         "id": 1,
         "type": "multiple-choice",
-        "stimulus": "<p>40% +&nbsp;<sup>3</sup>⁄<sub>4</sub>&nbsp;× 0,8 −&nbsp;<sup>1</sup>⁄<sub>5</sub>&nbsp;= …</p>",
+        "stimulus": "<p>175% &minus; 1 + 2 &times; 0,5 + <sup>1</sup>&frasl;<sub>4</sub> = …</p>",
         "text": "<p>Hitunglah hasil dari pertanyaan tersebut!</p>",
         "options": [
           {
             "id": "A",
-            "text": "&nbsp;<sup>3</sup>⁄<sub>5</sub>"
+            "text": "2"
           },
           {
             "id": "B",
-            "text": "&nbsp;0,8"
+            "text": "<sup>9</sup>&frasl;<sub>4</sub>"
           },
           {
             "id": "C",
-            "text": "1"
+            "text": "<sup>11</sup>&frasl;<sub>4</sub>"
           },
           {
             "id": "D",
-            "text": "&nbsp;<sup>6</sup>⁄<sub>5</sub>"
+            "text": "<sup>5</sup>&frasl;<sub>2</sub>"
           }
         ],
         "image": null,
-        "correctAnswer": "B"
+        "correctAnswer": "D"
       },
       {
         "id": 2,
@@ -3140,24 +3140,24 @@ const questions = {
       {
         "id": 1,
         "type": "multiple-choice",
-        "stimulus": "<p>80% −&nbsp;<sup>1</sup>⁄<sub>5</sub>&nbsp;+ 2 × 0,3 −&nbsp;<sup>1</sup>⁄<sub>10</sub>&nbsp;= …</p>",
+        "stimulus": "<p>160% + <sup>1</sup>&frasl;<sub>2</sub> &minus; 3 &times; 0,2 = …</p>",
         "text": "<p>Hitunglah hasil dari pertanyaan tersebut!</p>",
         "options": [
           {
             "id": "A",
-            "text": "&nbsp;<sup>3</sup>⁄<sub>10</sub>"
+            "text": "<sup>3</sup>&frasl;<sub>2</sub>"
           },
           {
             "id": "B",
-            "text": "&nbsp;<sup>7</sup>⁄<sub>10</sub>"
+            "text": "<sup>8</sup>&frasl;<sub>5</sub>"
           },
           {
             "id": "C",
-            "text": "&nbsp;1"
+            "text": "<sup>17</sup>&frasl;<sub>10</sub>"
           },
           {
             "id": "D",
-            "text": "&nbsp;<sup>9</sup>⁄<sub>10</sub>"
+            "text": "<sup>9</sup>&frasl;<sub>5</sub>"
           }
         ],
         "image": null,
@@ -3924,24 +3924,24 @@ const questions = {
       {
         "id": 1,
         "type": "multiple-choice",
-        "stimulus": "<p>125% −&nbsp;<sup>3</sup>⁄<sub>4</sub>&nbsp;+ 4 × 0,25 −&nbsp;<sup>2</sup>⁄<sub>4</sub>&nbsp;= …</p>",
+        "stimulus": "<p>140% &minus; 2 &times; 0,5 + <sup>3</sup>&frasl;<sub>10</sub> = …</p>",
         "text": "<p>Hitunglah hasil dari pertanyaan tersebut!</p>",
         "options": [
           {
             "id": "A",
-            "text": "1"
+            "text": "<sup>7</sup>&frasl;<sub>10</sub>"
           },
           {
             "id": "B",
-            "text": "1<sup>1</sup>⁄<sub>4</sub>"
+            "text": "<sup>9</sup>&frasl;<sub>10</sub>"
           },
           {
             "id": "C",
-            "text": "1<sup>1</sup>⁄<sub>2</sub>"
+            "text": "<sup>11</sup>&frasl;<sub>10</sub>"
           },
           {
             "id": "D",
-            "text": "1<sup>3</sup>⁄<sub>4</sub>"
+            "text": "<sup>13</sup>&frasl;<sub>10</sub>"
           }
         ],
         "image": null,
@@ -4707,28 +4707,28 @@ const questions = {
       {
         "id": 1,
         "type": "multiple-choice",
-        "stimulus": "<p>150% − 2 + 3 × 0,25 +&nbsp;<sup>1</sup>⁄<sub>4</sub>&nbsp;= …</p>",
+        "stimulus": "<p>125% + 3 &times; 0,4 &minus; <sup>1</sup>&frasl;<sub>2</sub> = …</p>",
         "text": "<p>Hitunglah hasil dari pertanyaan tersebut!</p>",
         "options": [
           {
             "id": "A",
-            "text": "&nbsp;<sup>3</sup>⁄<sub>4</sub>"
+            "text": "<sup>39</sup>&frasl;<sub>20</sub>"
           },
           {
             "id": "B",
-            "text": "&nbsp;1"
+            "text": "<sup>41</sup>&frasl;<sub>20</sub>"
           },
           {
             "id": "C",
-            "text": "&nbsp;<sup>5</sup>⁄<sub>4</sub>"
+            "text": "<sup>43</sup>&frasl;<sub>20</sub>"
           },
           {
             "id": "D",
-            "text": "&nbsp;<sup>3</sup>⁄<sub>2</sub>"
+            "text": "<sup>9</sup>&frasl;<sub>5</sub>"
           }
         ],
         "image": null,
-        "correctAnswer": "B"
+        "correctAnswer": "D"
       },
       {
         "id": 2,
@@ -5490,28 +5490,28 @@ const questions = {
       {
         "id": 1,
         "type": "multiple-choice",
-        "stimulus": "<p>175% − 1<sup>1</sup>⁄<sub>2</sub>&nbsp;+ 0,5 ×&nbsp;<sup>3</sup>⁄<sub>4</sub>&nbsp;= …</p>",
+        "stimulus": "<p>180% &minus; 4 &times; 0,25 + <sup>2</sup>&frasl;<sub>5</sub> = …</p>",
         "text": "<p>Hitunglah hasil dari pertanyaan tersebut!</p>",
         "options": [
           {
             "id": "A",
-            "text": "&nbsp;<sup>5</sup>⁄<sub>8</sub>"
+            "text": "<sup>6</sup>&frasl;<sub>5</sub>"
           },
           {
             "id": "B",
-            "text": "&nbsp;<sup>7</sup>⁄<sub>8</sub>"
+            "text": "<sup>7</sup>&frasl;<sub>5</sub>"
           },
           {
             "id": "C",
-            "text": "1"
+            "text": "<sup>8</sup>&frasl;<sub>5</sub>"
           },
           {
             "id": "D",
-            "text": "&nbsp;<sup>9</sup>⁄<sub>8</sub>"
+            "text": "<sup>9</sup>&frasl;<sub>5</sub>"
           }
         ],
         "image": null,
-        "correctAnswer": "B"
+        "correctAnswer": "D"
       },
       {
         "id": 2,
@@ -6273,24 +6273,24 @@ const questions = {
       {
         "id": 1,
         "type": "multiple-choice",
-        "stimulus": "<p>60% +&nbsp;<sup>7</sup>⁄<sub>10</sub>&nbsp;− 0,4 +&nbsp;<sup>1</sup>⁄<sub>5</sub>&nbsp;= …</p>",
+        "stimulus": "<p>130% + 2 &times; 0,35 &minus; <sup>1</sup>&frasl;<sub>2</sub> = …</p>",
         "text": "<p>Hitunglah hasil dari pertanyaan tersebut!</p>",
         "options": [
           {
             "id": "A",
-            "text": "&nbsp;<sup>9</sup>⁄<sub>10</sub>"
+            "text": "<sup>3</sup>&frasl;<sub>2</sub>"
           },
           {
             "id": "B",
-            "text": "&nbsp;1<sup>1</sup>⁄<sub>10</sub>"
+            "text": "<sup>7</sup>&frasl;<sub>5</sub>"
           },
           {
             "id": "C",
-            "text": "1<sup>1</sup>⁄<sub>5</sub>"
+            "text": "<sup>8</sup>&frasl;<sub>5</sub>"
           },
           {
             "id": "D",
-            "text": "1<sup>3</sup>⁄<sub>10</sub>"
+            "text": "<sup>17</sup>&frasl;<sub>10</sub>"
           }
         ],
         "image": null,
@@ -7057,28 +7057,28 @@ const questions = {
       {
         "id": 1,
         "type": "multiple-choice",
-        "stimulus": "<p>75% +&nbsp;<sup>2</sup>⁄<sub>5</sub>&nbsp;− 0,25 × 2 +&nbsp;<sup>1</sup>⁄<sub>10</sub>&nbsp;= …</p>",
+        "stimulus": "<p>210% &minus; 1 + 3 &times; 0,4 + <sup>1</sup>&frasl;<sub>5</sub> = …</p>",
         "text": "<p>Hitunglah hasil dari pertanyaan tersebut!</p>",
         "options": [
           {
             "id": "A",
-            "text": "&nbsp;<sup>4</sup>⁄<sub>5</sub>"
+            "text": "<sup>11</sup>&frasl;<sub>5</sub>"
           },
           {
             "id": "B",
-            "text": "&nbsp;<sup>9</sup>⁄<sub>10</sub>"
+            "text": "<sup>12</sup>&frasl;<sub>5</sub>"
           },
           {
             "id": "C",
-            "text": "1"
+            "text": "<sup>13</sup>&frasl;<sub>5</sub>"
           },
           {
             "id": "D",
-            "text": "&nbsp;<sup>11</sup>⁄<sub>10</sub>"
+            "text": "<sup>14</sup>&frasl;<sub>5</sub>"
           }
         ],
         "image": null,
-        "correctAnswer": "B"
+        "correctAnswer": "A"
       },
       {
         "id": 2,
@@ -7840,28 +7840,28 @@ const questions = {
       {
         "id": 1,
         "type": "multiple-choice",
-        "stimulus": "<p>40% +&nbsp;<sup>2</sup>⁄<sub>5</sub>&nbsp;− 0,5 × 1 +&nbsp;<sup>1</sup>⁄<sub>10</sub>&nbsp;= …</p>",
+        "stimulus": "<p>135% + 3 &times; 0,4 &minus; <sup>1</sup>&frasl;<sub>2</sub> = …</p>",
         "text": "<p>Hitunglah hasil dari pertanyaan tersebut!</p>",
         "options": [
           {
             "id": "A",
-            "text": "&nbsp;<sup>6</sup>⁄<sub>5</sub>"
+            "text": "<sup>37</sup>&frasl;<sub>20</sub>"
           },
           {
             "id": "B",
-            "text": "&nbsp;<sup>9</sup>⁄<sub>10</sub>"
+            "text": "<sup>39</sup>&frasl;<sub>20</sub>"
           },
           {
             "id": "C",
-            "text": "2½"
+            "text": "<sup>41</sup>&frasl;<sub>20</sub>"
           },
           {
             "id": "D",
-            "text": "&nbsp;<sup>11</sup>⁄<sub>10</sub>"
+            "text": "<sup>43</sup>&frasl;<sub>20</sub>"
           }
         ],
         "image": null,
-        "correctAnswer": "B"
+        "correctAnswer": "D"
       },
       {
         "id": 2,
