@@ -100,8 +100,9 @@
 
 @media (max-width: 768px) {
     .exam-card-content {
-        flex-direction: column;
-        overflow-y: auto;
+        display: block;
+        overflow: visible;
+        height: auto;
     }
 }
 
@@ -129,11 +130,13 @@
 
     .pane-stimulus,
     .pane-question {
-        flex: none;
+        display: block;
         width: 100%;
         max-height: none;
         padding: 20px;
         border-right: none;
+        overflow: visible;
+        height: auto;
     }
 
     .pane-stimulus {

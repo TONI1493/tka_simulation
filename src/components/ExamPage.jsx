@@ -24,8 +24,8 @@ const ExamPage = () => {
     const mapelKey = mapel === 'Bahasa Indonesia' ? 'bahasa_indonesia' : 'matematika';
     const paketKey = paket.toLowerCase().replace(/ /g, '');
 
-    const questionList = questions[mapelKey]?.[paketKey] || questions.matematika.paket1;
-    const currentQuestion = questionList[currentQuestionIndex];
+    const questionList = questions[mapelKey]?.[paketKey] || questions.matematika.paket1 || [];
+    const currentQuestion = questionList[currentQuestionIndex] || {};
 
     const cleanText = (text) => {
         if (!text) return "";
