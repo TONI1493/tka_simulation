@@ -101,8 +101,7 @@
 @media (max-width: 768px) {
     .exam-card-content {
         flex-direction: column;
-        overflow-y: visible;
-        /* Allow natural scrolling on mobile */
+        overflow-y: auto;
     }
 }
 
@@ -133,10 +132,8 @@
         flex: none;
         width: 100%;
         max-height: none;
-        /* No max height on mobile to prevent double scrollers */
         padding: 20px;
         border-right: none;
-        overflow-y: visible;
     }
 
     .pane-stimulus {

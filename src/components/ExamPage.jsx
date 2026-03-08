@@ -24,21 +24,8 @@ const ExamPage = () => {
     const mapelKey = mapel === 'Bahasa Indonesia' ? 'bahasa_indonesia' : 'matematika';
     const paketKey = paket.toLowerCase().replace(/ /g, '');
 
-    const questionList = questions[mapelKey]?.[paketKey] || questions.matematika.paket1 || [];
+    const questionList = questions[mapelKey]?.[paketKey] || questions.matematika.paket1;
     const currentQuestion = questionList[currentQuestionIndex];
-
-    // Fallback if question not found
-    if (!currentQuestion && !loading) {
-        return (
-            <div className="exam-container d-flex align-items-center justify-content-center" style={{ minHeight: '100vh' }}>
-                <div className="text-center p-5 bg-white shadow rounded">
-                    <h4 className="text-danger mb-3">Oops! Soal tidak ditemukan.</h4>
-                    <p className="text-muted">Terjadi kendala saat memuat data mata pelajaran: {mapel} - {paket}</p>
-                    <button onClick={() => navigate('/')} className="btn btn-primary px-4 mt-3">Kembali ke Beranda</button>
-                </div>
-            </div>
-        );
-    }
 
     const cleanText = (text) => {
         if (!text) return "";
@@ -115,13 +102,43 @@ const ExamPage = () => {
     };
 
     const handleSubmit = () => {
-        if (window.confirm("Apakah Anda yakin ingin mengakhiri tes?")) {
-            navigate('/result', { state: { answers, mapel, paket, questionList } });
-        }
+        setLoading(true);
+        setTimeout(() => {
+            let correctCount = 0;
+            questionList.forEach(q => {
+                const answer = answers[q.id];
+                if (q.type === 'true-false-statements') {
+                    const isAllCorrect = q.statements.every(s => answer && answer[s.id] === s.correctAnswer);
+                    if (isAllCorrect) correctCount++;
+                } else if (q.type === 'multiple-answer') {
+                    const isAllCorrect = Array.isArray(answer) &&
+                        answer.length === q.correctAnswers.length &&
+                        answer.every(a => q.correctAnswers.includes(a));
+                    if (isAllCorrect) correctCount++;
+                } else {
+                    if (answer === q.correctAnswer) {
+                        correctCount++;
+                    }
+                }
+            });
+            setLoading(false);
+            navigate('/result', {
+                state: {
+                    score: Math.round((correctCount / questionList.length) * 100),
+                    total: questionList.length,
+                    correct: correctCount,
+                    wrong: questionList.length - correctCount,
+                    mapel: mapel,
+                    paket: paket,
+                    answers: answers
+                }
+            });
+        }, 2000);
     };
 
     return (
-        <div className="exam-container">
+        <div className="exam-container" style={{ position: 'relative' }}>
+            {/* GLOBAL LOADING GIF OVERLAY */}
             {loading && (
                 <div style={{
                     position: 'fixed', top: 0, left: 0, right: 0, bottom: 0,
@@ -132,31 +149,40 @@ const ExamPage = () => {
                 </div>
             )}
 
-            {/* TOP HEADER (TEAL) */}
-            <div className="exam-top-header d-flex justify-content-between align-items-center">
-                <div className="d-flex align-items-center">
-                    <img src="/images/logo-w.png" alt="Logo" style={{ height: 35, marginRight: 15 }} />
-                    <span style={{ fontWeight: 600, fontSize: 16 }}>Simulasi TKA Online</span>
-                </div>
-                <div className="d-flex align-items-center">
-                    <span className="mr-3" style={{ fontSize: 13, fontWeight: 500 }}>P130100230 - PESERTA TKA</span>
-                    <div style={{ width: 35, height: 35, background: 'rgba(255,255,255,0.2)', borderRadius: 4, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                        <i className="fas fa-user text-white"></i>
+            {/* FIXED TOP BACKGROUND (Blue) */}
+            <div className="fixed-blue-header">
+                <div className="header-logo-section">
+                    <div className="d-flex justify-content-between align-items-center header-top-row">
+                        <div className="d-flex align-items-center">
+                            <img src="/images/logo-edutry.png" alt="Logo" style={{ height: 75, marginRight: 15 }} />
+                            <div className="text-white text-left">
+                                <h2 style={{ fontSize: 20, fontWeight: 700, margin: 0 }}>EDUTRY_TKA</h2>
+                                <p style={{ fontSize: 12, margin: 0, opacity: 0.9 }}>APLIKASI SIMULASI TKA ONLINE</p>
+                            </div>
+                        </div>
+                        <div className="d-flex align-items-center text-white">
+                            <span style={{ fontSize: 13, marginRight: 15, fontWeight: 600 }}>P130100230 - Toni</span>
+                            <div style={{
+                                width: 35, height: 35, background: '#6dace3', borderRadius: 4,
+                                display: 'flex', alignItems: 'center', justifyContent: 'center'
+                            }}>
+                                <i className="fas fa-graduation-cap"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
+            {/* MAIN EXAM CARD CONTAINER */}
             <div className="exam-main-container">
-                <div className="exam-card-wrapper shadow-lg">
+                <div className="exam-card-wrapper">
                     {/* CARD HEADER */}
                     <div className="exam-card-header">
-                        <div className="d-flex justify-content-between align-items-center header-top-row">
-                            <div className="d-flex align-items-center">
-                                <div style={{ background: '#326698', color: 'white', padding: '10px 20px', borderRadius: 4, fontWeight: 700, fontSize: 18, marginRight: 20 }}>
-                                    SOAL NO {currentQuestionIndex + 1}
-                                </div>
-                                <div className="d-flex align-items-center" style={{ background: '#f0f2f5', padding: '5px 15px', borderRadius: 20 }}>
-                                    <span style={{ fontSize: 12, fontWeight: 600, marginRight: 10 }}>Ukuran Font Soal :</span>
+                        <div className="d-flex justify-content-between align-items-start header-top-row">
+                            <div>
+                                <h4 style={{ fontWeight: 400, color: '#333', fontSize: 24, marginBottom: 15 }}>Soal nomor {currentQuestionIndex + 1}</h4>
+                                <div className="d-flex align-items-center">
+                                    <span style={{ fontSize: 13, color: '#666', marginRight: 15 }}>Ukuran font soal:</span>
                                     <span
                                         onClick={() => setFontSize(13)}
                                         style={{ fontSize: 13, cursor: 'pointer', margin: '0 8px', color: fontSize === 13 ? '#007bff' : '#333', fontWeight: fontSize === 13 ? 700 : 400 }}
@@ -194,9 +220,9 @@ const ExamPage = () => {
                         </div>
                     </div>
 
-                    {/* CARD CONTENT */}
+                    {/* CARD CONTENT - Split View 50/50 - Always Forced per User Request */}
                     <div className="exam-card-content">
-                        {/* Left Side: Stimulus (FORCED 50/50 Layout) */}
+                        {/* Left Side: Stimulus/Reference (50%) */}
                         <div className="pane-stimulus">
                             {cleanText(currentQuestion.stimulus) ? (
                                 <div style={{
@@ -230,7 +256,7 @@ const ExamPage = () => {
                             )}
                         </div>
 
-                        {/* Right Side: Question & Options */}
+                        {/* Right Side: Options/Statements ONLY (50%) */}
                         <div className="pane-question">
                             <div style={{
                                 fontSize: fontSize + 2,
