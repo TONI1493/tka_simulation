@@ -1,0 +1,262 @@
+/* Exam Page Layout */
+.exam-container {
+    padding-bottom: 80px;
+    background-color: #f4f6f9;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+/* 1. Top Header (Teal) */
+.exam-top-header {
+    background: linear-gradient(90deg, #76A2B7 0%, #5B899C 100%);
+    color: white;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1010;
+    padding: 0 30px;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header-logo-section {
+    padding: 0 50px;
+    margin-top: 25px;
+}
+
+@media (max-width: 768px) {
+    .header-logo-section {
+        padding: 0 15px;
+        margin-top: 15px;
+    }
+}
+
+/* Main Container */
+.exam-main-container {
+    position: relative;
+    z-index: 10;
+    padding-top: 110px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    .exam-main-container {
+        padding-top: 130px;
+        /* More space for stacked header content if needed */
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+}
+
+/* Card Layout */
+.exam-card-wrapper {
+    background: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.exam-card-header {
+    padding: 25px 40px;
+    border-bottom: 1px solid #eee;
+}
+
+@media (max-width: 768px) {
+    .exam-card-header {
+        padding: 15px 20px;
+    }
+
+    .header-top-row {
+        flex-direction: column;
+        align-items: center !important;
+        text-align: center;
+    }
+
+    .header-controls {
+        margin-top: 15px;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .header-controls>* {
+        margin: 0 !important;
+        width: 100%;
+    }
+}
+
+/* Content Area - Split View to Stacked */
+.exam-card-content {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .exam-card-content {
+        flex-direction: column;
+        overflow-y: auto;
+    }
+}
+
+.pane-stimulus {
+    flex: 0 0 50%;
+    padding: 30px 40px;
+    border-right: 2px solid #ddd;
+    overflow-y: auto;
+    max-height: 65vh;
+    background: #fcfcfc;
+}
+
+.pane-question {
+    flex: 0 0 50%;
+    padding: 30px 40px;
+    overflow-y: auto;
+    max-height: 65vh;
+}
+
+.pane-question.full-width {
+    flex: 0 0 100%;
+}
+
+@media (max-width: 768px) {
+
+    .pane-stimulus,
+    .pane-question {
+        flex: none;
+        width: 100%;
+        max-height: none;
+        padding: 20px;
+        border-right: none;
+    }
+
+    .pane-stimulus {
+        border-bottom: 2px solid #ddd;
+    }
+}
+
+/* Options Branding */
+.option-item-hover {
+    cursor: pointer;
+    transition: background 0.2s;
+    border: 1px solid transparent;
+}
+
+.option-item-hover:hover {
+    background: #f8faff;
+    border-color: #e0e6ed;
+}
+
+/* Footer Navigation */
+.exam-card-footer {
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    border-top: 1px solid #eee;
+}
+
+@media (max-width: 768px) {
+    .exam-card-footer {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .exam-card-footer button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Timer and Labels */
+.timer-box {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-size: 13px;
+    color: #444;
+}
+
+/* Side Info Header (Teal/Blue Pattern) */
+.fixed-blue-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 230px;
+    background-image: url(/images/header-bg-blue.png?v=2);
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Markdown Styling */
+.markdown-content table,
+.table.table-bordered {
+    border: 2px solid #333 !important;
+    border-collapse: collapse !important;
+}
+
+.markdown-content table th,
+.markdown-content table td,
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #333 !important;
+    padding: 10px 15px !important;
+    text-align: center !important;
+}
+
+.markdown-content table th,
+.table-bordered thead th {
+    background-color: #f8f9fa !important;
+    font-weight: 700 !important;
+    color: #333 !important;
+}
+
+.markdown-content p {
+    margin-bottom: 15px;
+}
+
+/* Sidebar / Number Grid */
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.sidebar-panel {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2000;
+    width: 350px;
+    background: white;
+    box-shadow: -2px 0 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    overflow-y: auto;
+}
+
+@media (max-width: 480px) {
+    .sidebar-panel {
+        width: 100%;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
