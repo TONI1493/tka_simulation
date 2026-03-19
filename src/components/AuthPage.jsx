@@ -6,18 +6,28 @@ const AuthPage = () => {
     const location = useLocation();
     const { mapel, paket, jenjang } = location.state || {}; // Get data from previous page
 
-    const [username, setUsername] = useState('P130100230');
-    const [password, setPassword] = useState('.....');
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
     const [showPassword, setShowPassword] = useState(false);
     const [loading, setLoading] = useState(false);
 
     const handleLogin = (e) => {
         e.preventDefault();
-        setLoading(true);
-        setTimeout(() => {
-            setLoading(false);
-            navigate('/confirmation', { state: { mapel, paket, jenjang } }); // Pass data forward
-        }, 2000);
+
+        if (!username || !password) {
+            alert("Silakan masukkan username dan password!");
+            return;
+        }
+
+        if (username === 'EDUTRY123' && password === 'TOTKA123') {
+            setLoading(true);
+            setTimeout(() => {
+                setLoading(false);
+                navigate('/confirmation', { state: { mapel, paket, jenjang } });
+            }, 1000);
+        } else {
+            alert("Username atau Password salah!");
+        }
     };
 
     return (
