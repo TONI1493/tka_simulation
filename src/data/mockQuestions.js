@@ -182,8 +182,8 @@ const questions = {
       {
         "id": 8,
         "type": "multiple-choice",
-        "stimulus": "<p>Pak Andi mempunyai kebun seluas 4,2 hektar. Pada kebun tersebut,&nbsp;14&nbsp;bagiannya akan ditanami jagung,&nbsp;13&nbsp;bagiannya akan ditanami kedelai, dan sisanya akan ditanami singkong.</p>",
-        "text": "<em>Berapakah luas kebun yang akan ditanami kedelai dan singkong?</em>",
+        "stimulus": "<p>Pak Andi mempunyai kebun seluas 4,2 hektar. Pada kebun tersebut, 1/4 bagiannya akan ditanami jagung, 1/3 bagiannya akan ditanami kedelai, dan sisanya akan ditanami singkong.</p>",
+        "text": "Berapakah luas kebun yang akan ditanami kedelai dan singkong?",
         "options": [
           {
             "id": "A",
@@ -202,14 +202,13 @@ const questions = {
             "text": "3,50 hektar"
           }
         ],
-        "image": null,
         "correctAnswer": "C"
       },
       {
         "id": 9,
         "type": "multiple-choice",
-        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar&nbsp;27&nbsp;m³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
-        "text": "Panjangnya&nbsp;3 kali&nbsp;ukuran bak sebelumnya\nLebarnya&nbsp;13&nbsp;dari ukuran bak sebelumnya\nTingginya&nbsp;sama dengan ukuran bak sebelumnya\n<em>Volume dari bak yang baru adalah ….</em>",
+        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar 27 m³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
+        "text": "Panjangnya 3 kali ukuran bak sebelumnya\nLebarnya 1/3 dari ukuran bak sebelumnya\nTingginya sama dengan ukuran bak sebelumnya\nVolume dari bak yang baru adalah ….",
         "options": [
           {
             "id": "A",
@@ -228,7 +227,6 @@ const questions = {
             "text": "54 m³"
           }
         ],
-        "image": null,
         "correctAnswer": "C"
       },
       {
@@ -954,8 +952,8 @@ const questions = {
       {
         "id": 8,
         "type": "multiple-choice",
-        "stimulus": "<p>Sebuah waduk menampung air sebanyak 12,6 juta liter. Sebanyak&nbsp;13&nbsp;bagian digunakan untuk irigasi sawah,&nbsp;29&nbsp;bagian untuk air minum warga, dan sisanya untuk cadangan.</p>",
-        "text": "<em>Berapakah volume air yang digunakan untuk air minum dan cadangan?</em>",
+        "stimulus": "<p>Sebuah waduk menampung air sebanyak 12,6 juta liter. Sebanyak 1/3 bagian digunakan untuk irigasi sawah, 2/9 bagian untuk air minum warga, dan sisanya untuk cadangan.</p>",
+        "text": "Berapakah volume air yang digunakan untuk air minum dan cadangan?",
         "options": [
           {
             "id": "A",
@@ -974,14 +972,13 @@ const questions = {
             "text": "9,80 juta liter"
           }
         ],
-        "image": null,
         "correctAnswer": "C"
       },
       {
         "id": 9,
         "type": "multiple-choice",
-        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar&nbsp;125&nbsp;m³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
-        "text": "Panjangnya&nbsp;2 kali&nbsp;ukuran bak sebelumnya\nLebarnya&nbsp;15&nbsp;dari ukuran bak sebelumnya\nTingginya&nbsp;sama dengan ukuran bak sebelumnya\n<em>Volume dari bak yang baru adalah ….</em>",
+        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar 125 m³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
+        "text": "Panjangnya 2 kali ukuran bak sebelumnya\nLebarnya 1/5 dari ukuran bak sebelumnya\nTingginya sama dengan ukuran bak sebelumnya\nVolume dari bak yang baru adalah ….",
         "options": [
           {
             "id": "A",
@@ -1000,7 +997,6 @@ const questions = {
             "text": "100 m³"
           }
         ],
-        "image": null,
         "correctAnswer": "B"
       },
       {
@@ -1725,8 +1721,8 @@ const questions = {
       {
         "id": 8,
         "type": "multiple-choice",
-        "stimulus": "<p>Bu Dewi membeli cat sebanyak 9,6 liter. Ia menggunakan&nbsp;38&nbsp;bagian untuk mengecat kamar,&nbsp;14&nbsp;bagian untuk mengecat dapur, dan sisanya untuk mengecat ruang tamu.</p>",
-        "text": "<em>Berapakah volume cat yang digunakan untuk mengecat dapur dan ruang tamu?</em>",
+        "stimulus": "<p>Bu Dewi membeli cat sebanyak 9,6 liter. Ia menggunakan 3/8 bagian untuk mengecat kamar, 1/4 bagian untuk mengecat dapur, dan sisanya untuk mengecat ruang tamu.</p>",
+        "text": "Berapakah volume cat yang digunakan untuk mengecat dapur dan ruang tamu?",
         "options": [
           {
             "id": "A",
@@ -1745,14 +1741,13 @@ const questions = {
             "text": "6,80 liter"
           }
         ],
-        "image": null,
         "correctAnswer": "C"
       },
       {
         "id": 9,
         "type": "multiple-choice",
-        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar&nbsp;216&nbsp;m³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
-        "text": "Panjangnya&nbsp;12&nbsp;dari ukuran bak sebelumnya\nLebarnya&nbsp;13&nbsp;dari ukuran bak sebelumnya\nTingginya&nbsp;2 kali&nbsp;ukuran bak sebelumnya\n<em>Volume dari bak yang baru adalah ….</em>",
+        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar 216 m³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
+        "text": "Panjangnya 1/2 dari ukuran bak sebelumnya\nLebarnya 1/3 dari ukuran bak sebelumnya\nTingginya 2 kali ukuran bak sebelumnya\nVolume dari bak yang baru adalah ….",
         "options": [
           {
             "id": "A",
@@ -1771,7 +1766,6 @@ const questions = {
             "text": "108 m³"
           }
         ],
-        "image": null,
         "correctAnswer": "C"
       },
       {
@@ -2418,7 +2412,7 @@ const questions = {
           }
         ],
         "image": "data:image/png;base64,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",
-        "correctAnswer": "B"
+        "correctAnswer": "A"
       },
       {
         "id": 5,
@@ -2498,8 +2492,8 @@ const questions = {
       {
         "id": 8,
         "type": "multiple-choice",
-        "stimulus": "<p>Sebuah tangki berisi minyak goreng sebanyak 15 liter. Sebanyak&nbsp;25&nbsp;bagian dijual ke warung A,&nbsp;13&nbsp;bagian dijual ke warung B, dan sisanya disimpan.</p>",
-        "text": "<em>Berapakah volume minyak yang dijual ke warung B dan yang disimpan?</em>",
+        "stimulus": "<p>Sebuah tangki berisi minyak goreng sebanyak 15 liter. Sebanyak 2/5 bagian dijual ke warung A, 1/3 bagian dijual ke warung B, dan sisanya disimpan.</p>",
+        "text": "Berapakah volume minyak yang dijual ke warung B dan yang disimpan?",
         "options": [
           {
             "id": "A",
@@ -2518,14 +2512,13 @@ const questions = {
             "text": "9,00 liter"
           }
         ],
-        "image": null,
         "correctAnswer": "D"
       },
       {
         "id": 9,
         "type": "multiple-choice",
-        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar&nbsp;512&nbsp;cm³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
-        "text": "Panjangnya&nbsp;3 kali&nbsp;ukuran bak sebelumnya\nLebarnya&nbsp;sama dengan ukuran bak sebelumnya\nTingginya&nbsp;13&nbsp;dari ukuran bak sebelumnya\n<em>Volume dari bak yang baru adalah ….</em>",
+        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar 512 cm³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
+        "text": "Panjangnya 3 kali ukuran bak sebelumnya\nLebarnya sama dengan ukuran bak sebelumnya\nTingginya 1/3 dari ukuran bak sebelumnya\nVolume dari bak yang baru adalah ….",
         "options": [
           {
             "id": "A",
@@ -2544,7 +2537,6 @@ const questions = {
             "text": "768 cm³"
           }
         ],
-        "image": null,
         "correctAnswer": "C"
       },
       {
@@ -3270,8 +3262,8 @@ const questions = {
       {
         "id": 8,
         "type": "multiple-choice",
-        "stimulus": "<p>Pak Budi memiliki anggaran proyek sebesar Rp 8,4 juta. Sebesar&nbsp;17&nbsp;bagian digunakan untuk membeli bahan bangunan,&nbsp;38&nbsp;bagian untuk upah pekerja, dan sisanya untuk biaya lain-lain.</p>",
-        "text": "<em>Berapakah anggaran yang digunakan untuk upah pekerja dan biaya lain-lain?</em>",
+        "stimulus": "<p>Pak Budi memiliki anggaran proyek sebesar Rp 8,4 juta. Sebesar 1/7 bagian digunakan untuk membeli bahan bangunan, 3/8 bagian untuk upah pekerja, dan sisanya untuk biaya lain-lain.</p>",
+        "text": "Berapakah anggaran yang digunakan untuk upah pekerja dan biaya lain-lain?",
         "options": [
           {
             "id": "A",
@@ -3290,14 +3282,13 @@ const questions = {
             "text": "7,50 juta"
           }
         ],
-        "image": null,
         "correctAnswer": "C"
       },
       {
         "id": 9,
         "type": "multiple-choice",
-        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar&nbsp;1000&nbsp;cm³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
-        "text": "Panjangnya&nbsp;4 kali&nbsp;ukuran bak sebelumnya\nLebarnya&nbsp;14&nbsp;dari ukuran bak sebelumnya\nTingginya&nbsp;12&nbsp;dari ukuran bak sebelumnya\n<em>Volume dari bak yang baru adalah ….</em>",
+        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar 1000 cm³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
+        "text": "Panjangnya 4 kali ukuran bak sebelumnya\nLebarnya 1/4 dari ukuran bak sebelumnya\nTingginya 1/2 dari ukuran bak sebelumnya\nVolume dari bak yang baru adalah ….",
         "options": [
           {
             "id": "A",
@@ -3316,7 +3307,6 @@ const questions = {
             "text": "1.000 cm³"
           }
         ],
-        "image": null,
         "correctAnswer": "B"
       },
       {
@@ -4042,8 +4032,8 @@ const questions = {
       {
         "id": 8,
         "type": "multiple-choice",
-        "stimulus": "<p>Bu Rina mempunyai kain sepanjang 5,4 meter. Sebanyak&nbsp;16&nbsp;bagian digunakan untuk membuat tas,&nbsp;29&nbsp;bagian untuk membuat baju, dan sisanya untuk membuat rok.</p>",
-        "text": "<em>Berapakah panjang kain yang digunakan untuk membuat baju dan rok?</em>",
+        "stimulus": "<p>Bu Rina mempunyai kain sepanjang 5,4 meter. Sebanyak 1/6 bagian digunakan untuk membuat tas, 2/9 bagian untuk membuat baju, dan sisanya untuk membuat rok.</p>",
+        "text": "Berapakah panjang kain yang digunakan untuk membuat baju dan rok?",
         "options": [
           {
             "id": "A",
@@ -4062,14 +4052,13 @@ const questions = {
             "text": "4,50 meter"
           }
         ],
-        "image": null,
         "correctAnswer": "D"
       },
       {
         "id": 9,
         "type": "multiple-choice",
-        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar&nbsp;216&nbsp;cm³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
-        "text": "Panjangnya&nbsp;5 kali&nbsp;ukuran bak sebelumnya\nLebarnya&nbsp;16&nbsp;dari ukuran bak sebelumnya\nTingginya&nbsp;sama dengan ukuran bak sebelumnya\n<em>Volume dari bak yang baru adalah ….</em>",
+        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar 216 cm³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
+        "text": "Panjangnya 5 kali ukuran bak sebelumnya\nLebarnya 1/6 dari ukuran bak sebelumnya\nTingginya sama dengan ukuran bak sebelumnya\nVolume dari bak yang baru adalah ….",
         "options": [
           {
             "id": "A",
@@ -4088,7 +4077,6 @@ const questions = {
             "text": "210 cm³"
           }
         ],
-        "image": null,
         "correctAnswer": "C"
       },
       {
@@ -4813,8 +4801,8 @@ const questions = {
       {
         "id": 8,
         "type": "multiple-choice",
-        "stimulus": "<p>Bu Sari memiliki tepung sebanyak 3,6 kg. Ia menggunakan&nbsp;16&nbsp;bagian untuk membuat kue bolu,&nbsp;14&nbsp;bagian untuk membuat roti, dan sisanya untuk membuat kue kering.</p>",
-        "text": "<em>Berapakah berat tepung yang digunakan untuk membuat roti dan kue kering?</em>",
+        "stimulus": "<p>Bu Sari memiliki tepung sebanyak 3,6 kg. Ia menggunakan 1/6 bagian untuk membuat kue bolu, 1/4 bagian untuk membuat roti, dan sisanya untuk membuat kue kering.</p>",
+        "text": "Berapakah berat tepung yang digunakan untuk membuat roti dan kue kering?",
         "options": [
           {
             "id": "A",
@@ -4833,14 +4821,13 @@ const questions = {
             "text": "3,15 kg"
           }
         ],
-        "image": null,
         "correctAnswer": "C"
       },
       {
         "id": 9,
         "type": "multiple-choice",
-        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar&nbsp;64&nbsp;m³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
-        "text": "Panjangnya&nbsp;2 kali&nbsp;ukuran bak sebelumnya\nLebarnya&nbsp;2 kali&nbsp;ukuran bak sebelumnya\nTingginya&nbsp;14&nbsp;dari ukuran bak sebelumnya\n<em>Volume dari bak yang baru adalah ….</em>",
+        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar 64 m³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
+        "text": "Panjangnya 2 kali ukuran bak sebelumnya\nLebarnya 2 kali ukuran bak sebelumnya\nTingginya 1/4 dari ukuran bak sebelumnya\nVolume dari bak yang baru adalah ….",
         "options": [
           {
             "id": "A",
@@ -4859,7 +4846,6 @@ const questions = {
             "text": "128 m³"
           }
         ],
-        "image": null,
         "correctAnswer": "C"
       },
       {
@@ -5585,8 +5571,8 @@ const questions = {
       {
         "id": 8,
         "type": "multiple-choice",
-        "stimulus": "<p>Pak Joko memiliki lahan 6,3 hektar. Sebesar&nbsp;27&nbsp;bagian ditanami padi,&nbsp;13&nbsp;bagian ditanami tebu, dan sisanya ditanami palawija.</p>",
-        "text": "<em>Berapakah luas lahan yang ditanami tebu dan palawija?</em>",
+        "stimulus": "<p>Pak Joko memiliki lahan 6,3 hektar. Sebesar 2/7 bagian ditanami padi, 1/3 bagian ditanami tebu, dan sisanya ditanami palawija.</p>",
+        "text": "Berapakah luas lahan yang ditanami tebu dan palawija?",
         "options": [
           {
             "id": "A",
@@ -5605,14 +5591,13 @@ const questions = {
             "text": "4,95 hektar"
           }
         ],
-        "image": null,
         "correctAnswer": "C"
       },
       {
         "id": 9,
         "type": "multiple-choice",
-        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar&nbsp;343&nbsp;m³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
-        "text": "Panjangnya&nbsp;2 kali&nbsp;ukuran bak sebelumnya\nLebarnya&nbsp;3 kali&nbsp;ukuran bak sebelumnya\nTingginya&nbsp;17&nbsp;dari ukuran bak sebelumnya\n<em>Volume dari bak yang baru adalah ….</em>",
+        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar 343 m³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
+        "text": "Panjangnya 2 kali ukuran bak sebelumnya\nLebarnya 3 kali ukuran bak sebelumnya\nTingginya 1/7 dari ukuran bak sebelumnya\nVolume dari bak yang baru adalah ….",
         "options": [
           {
             "id": "A",
@@ -5631,7 +5616,6 @@ const questions = {
             "text": "294 m³"
           }
         ],
-        "image": null,
         "correctAnswer": "D"
       },
       {
@@ -6356,8 +6340,8 @@ const questions = {
       {
         "id": 8,
         "type": "multiple-choice",
-        "stimulus": "<p>Sebuah kolam renang menampung air sebanyak 18 m³. Sebanyak&nbsp;16&nbsp;bagian bocor dan terbuang,&nbsp;512&nbsp;bagian digunakan untuk mengisi kolam kecil, dan sisanya tetap ada di kolam.</p>",
-        "text": "<em>Berapakah volume air yang digunakan untuk kolam kecil dan yang tersisa di kolam?</em>",
+        "stimulus": "<p>Sebuah kolam renang menampung air sebanyak 18 m³. Sebanyak 1/6 bagian bocor dan terbuang, 5/12 bagian digunakan untuk mengisi kolam kecil, dan sisanya tetap ada di kolam.</p>",
+        "text": "Berapakah volume air yang digunakan untuk kolam kecil dan yang tersisa di kolam?",
         "options": [
           {
             "id": "A",
@@ -6376,14 +6360,13 @@ const questions = {
             "text": "16,5 m³"
           }
         ],
-        "image": null,
         "correctAnswer": "C"
       },
       {
         "id": 9,
         "type": "multiple-choice",
-        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar&nbsp;729&nbsp;m³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
-        "text": "Panjangnya&nbsp;13&nbsp;dari ukuran bak sebelumnya\nLebarnya&nbsp;4 kali&nbsp;ukuran bak sebelumnya\nTingginya&nbsp;sama dengan ukuran bak sebelumnya\n<em>Volume dari bak yang baru adalah ….</em>",
+        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar 729 m³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
+        "text": "Panjangnya 1/3 dari ukuran bak sebelumnya\nLebarnya 4 kali ukuran bak sebelumnya\nTingginya sama dengan ukuran bak sebelumnya\nVolume dari bak yang baru adalah ….",
         "options": [
           {
             "id": "A",
@@ -6402,7 +6385,6 @@ const questions = {
             "text": "1.458 m³"
           }
         ],
-        "image": null,
         "correctAnswer": "C"
       },
       {
@@ -7128,8 +7110,8 @@ const questions = {
       {
         "id": 8,
         "type": "multiple-choice",
-        "stimulus": "<p>Pak Hendra memiliki tali sepanjang 7,5 meter. Ia memotong&nbsp;25&nbsp;bagian untuk pagar,&nbsp;16&nbsp;bagian untuk jemuran, dan sisanya untuk keperluan lain.</p>",
-        "text": "<em>Berapakah panjang tali yang digunakan untuk jemuran dan keperluan lain?</em>",
+        "stimulus": "<p>Pak Hendra memiliki tali sepanjang 7,5 meter. Ia memotong 2/5 bagian untuk pagar, 1/6 bagian untuk jemuran, dan sisanya untuk keperluan lain.</p>",
+        "text": "Berapakah panjang tali yang digunakan untuk jemuran dan keperluan lain?",
         "options": [
           {
             "id": "A",
@@ -7148,14 +7130,13 @@ const questions = {
             "text": "5,00 meter"
           }
         ],
-        "image": null,
         "correctAnswer": "C"
       },
       {
         "id": 9,
         "type": "multiple-choice",
-        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar&nbsp;8&nbsp;m³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
-        "text": "Panjangnya&nbsp;3 kali&nbsp;ukuran bak sebelumnya\nLebarnya&nbsp;12&nbsp;dari ukuran bak sebelumnya\nTingginya&nbsp;2 kali&nbsp;ukuran bak sebelumnya\n<em>Volume dari bak yang baru adalah ….</em>",
+        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar 8 m³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
+        "text": "Panjangnya 3 kali ukuran bak sebelumnya\nLebarnya 1/2 dari ukuran bak sebelumnya\nTingginya 2 kali ukuran bak sebelumnya\nVolume dari bak yang baru adalah ….",
         "options": [
           {
             "id": "A",
@@ -7174,7 +7155,6 @@ const questions = {
             "text": "36 m³"
           }
         ],
-        "image": null,
         "correctAnswer": "C"
       },
       {
@@ -7901,7 +7881,7 @@ const questions = {
         "id": 8,
         "type": "multiple-choice",
         "stimulus": "<p>Bu Ratna memiliki tali sepanjang 9 meter. Ia memotong ⅓ bagian untuk tirai, ¼ bagian untuk hiasan, dan sisanya untuk keperluan lain.</p>",
-        "text": "<em>Berapakah panjang tali yang digunakan untuk hiasan dan keperluan lain?</em>",
+        "text": "Berapakah panjang tali yang digunakan untuk hiasan dan keperluan lain?",
         "options": [
           {
             "id": "A",
@@ -7920,14 +7900,13 @@ const questions = {
             "text": "6,50 meter"
           }
         ],
-        "image": null,
         "correctAnswer": "B"
       },
       {
         "id": 9,
         "type": "multiple-choice",
-        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar&nbsp;27 m³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
-        "text": "Panjangnya&nbsp;2 kali ukuran bak sebelumnya\nLebarnya&nbsp;⅓ dari ukuran bak sebelumnya\nTingginya&nbsp;4 kali ukuran bak sebelumnya\n<em>Volume dari bak yang baru adalah ….</em>",
+        "stimulus": "<p>Sebuah bak berbentuk kubus memiliki volume sebesar 27 m³. Bak tersebut akan diubah menjadi sebuah balok dengan:</p>",
+        "text": "Panjangnya 2 kali ukuran bak sebelumnya\nLebarnya ⅓ dari ukuran bak sebelumnya\nTingginya 4 kali ukuran bak sebelumnya\nVolume dari bak yang baru adalah ….",
         "options": [
           {
             "id": "A",
@@ -7946,7 +7925,6 @@ const questions = {
             "text": "96 m³"
           }
         ],
-        "image": null,
         "correctAnswer": "C"
       },
       {
@@ -8645,7 +8623,7 @@ const questions = {
         "id": 7,
         "type": "multiple-answer",
         "stimulus": "<p><strong>Gajah yang Angkuh</strong></p>\n<p>Di tengah padang sabana yang luas, hiduplah seekor gajah bernama Gondo. Gondo adalah gajah terbesar di antara kawanannya. Ia merasa tidak ada hewan lain yang bisa menandinginya.</p>\n<p>Suatu hari, Gondo berjalan dengan sombong dan tidak sengaja menginjak sarang semut. Semut-semut itu berlarian panik.</p>\n<p>\"Hei, pergi kalian! Kalian sangat mengganggu!\" teriak Gondo sambil mengibas-ngibaskan kakinya.</p>\n<p>Gondo pun tiba di tepi danau untuk minum. Ia mendorong hewan-hewan lain yang sedang minum karena merasa paling berhak.</p>\n<p>\"Minggir! Aku yang paling besar, akulah yang harus minum duluan!\" kata Gondo dengan keras.</p>\n<p>Seli, gajah yang lebih tua, mendekati Gondo perlahan.</p>\n<p>\"Gondo, ukuran tubuhmu yang besar seharusnya membuatmu lebih bijaksana, bukan lebih angkuh,\" ujar Seli dengan lembut.</p>\n<p>\"Aku tidak butuh nasihatmu,\" jawab Gondo ketus.</p>\n<p>Keesokan harinya, Gondo terperosok ke dalam lumpur dalam. Ia meronta-ronta, tetapi semakin dalam. Hewan-hewan yang pernah ia usir tidak ada yang mau menolong. Hanya Seli yang tetap bersabar dan memanggil kawanan gajah lain untuk membantu Gondo keluar dari lumpur.</p>\n<p>Gondo merasa sangat malu dan menyesal.</p>\n<p>\"Maafkan aku, Seli. Maafkan aku semua. Aku telah berlaku sombong,\" kata Gondo dengan suara bergetar.</p>\n<p>Sejak saat itu, Gondo menjadi gajah yang rendah hati dan suka membantu.</p>",
-        "text": "<p>Apa yang dijelaskan Seli tentang ukuran tubuh Gondo? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>",
+        "text": "<p>Apa yang dijelaskan Seli tentang ukuran tubuh Gondo? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>\n",
         "options": [
           {
             "id": "A",
@@ -8669,7 +8647,7 @@ const questions = {
         "id": 8,
         "type": "multiple-choice",
         "stimulus": "<p><strong>Gajah yang Angkuh</strong></p>\n<p>Di tengah padang sabana yang luas, hiduplah seekor gajah bernama Gondo. Gondo adalah gajah terbesar di antara kawanannya. Ia merasa tidak ada hewan lain yang bisa menandinginya.</p>\n<p>Suatu hari, Gondo berjalan dengan sombong dan tidak sengaja menginjak sarang semut. Semut-semut itu berlarian panik.</p>\n<p>\"Hei, pergi kalian! Kalian sangat mengganggu!\" teriak Gondo sambil mengibas-ngibaskan kakinya.</p>\n<p>Gondo pun tiba di tepi danau untuk minum. Ia mendorong hewan-hewan lain yang sedang minum karena merasa paling berhak.</p>\n<p>\"Minggir! Aku yang paling besar, akulah yang harus minum duluan!\" kata Gondo dengan keras.</p>\n<p>Seli, gajah yang lebih tua, mendekati Gondo perlahan.</p>\n<p>\"Gondo, ukuran tubuhmu yang besar seharusnya membuatmu lebih bijaksana, bukan lebih angkuh,\" ujar Seli dengan lembut.</p>\n<p>\"Aku tidak butuh nasihatmu,\" jawab Gondo ketus.</p>\n<p>Keesokan harinya, Gondo terperosok ke dalam lumpur dalam. Ia meronta-ronta, tetapi semakin dalam. Hewan-hewan yang pernah ia usir tidak ada yang mau menolong. Hanya Seli yang tetap bersabar dan memanggil kawanan gajah lain untuk membantu Gondo keluar dari lumpur.</p>\n<p>Gondo merasa sangat malu dan menyesal.</p>\n<p>\"Maafkan aku, Seli. Maafkan aku semua. Aku telah berlaku sombong,\" kata Gondo dengan suara bergetar.</p>\n<p>Sejak saat itu, Gondo menjadi gajah yang rendah hati dan suka membantu.</p>",
-        "text": "<p>Apa kejadian yang membuat Gondo merasa menyesal?</p>",
+        "text": "<p>Apa kejadian yang membuat Gondo merasa menyesal?</p>\n",
         "options": [
           {
             "id": "A",
@@ -8693,8 +8671,7 @@ const questions = {
       {
         "id": 9,
         "type": "true-false-statements",
-        "stimulus": "<p><strong>Gajah yang Angkuh</strong></p>\n<p>Di tengah padang sabana yang luas, hiduplah seekor gajah bernama Gondo. Gondo adalah gajah terbesar di antara kawanannya. Ia merasa tidak ada hewan lain yang bisa menandinginya.</p>\n<p>Suatu hari, Gondo berjalan dengan sombong dan tidak sengaja menginjak sarang semut. Semut-semut itu berlarian panik.</p>\n<p>\"Hei, pergi kalian! Kalian sangat mengganggu!\" teriak Gondo sambil mengibas-ngibaskan kakinya.</p>\n<p>Gondo pun tiba di tepi danau untuk minum. Ia mendorong hewan-hewan lain yang sedang minum karena merasa paling berhak.</p>\n<p>\"Minggir! Aku yang paling besar, akulah yang harus minum duluan!\" kata Gondo dengan keras.</p>\n<p>Seli, gajah yang lebih tua, mendekati Gondo perlahan.</p>\n<p>\"Gondo, ukuran tubuhmu yang besar seharusnya membuatmu lebih bijaksana, bukan lebih angkuh,\" ujar Seli dengan lembut.</p>\n<p>\"Aku tidak butuh nasihatmu,\" jawab Gondo ketus.</p>\n<p>Keesokan harinya, Gondo terperosok ke dalam lumpur dalam. Ia meronta-ronta, tetapi semakin dalam. Hewan-hewan yang pernah ia usir tidak ada yang mau menolong. Hanya Seli yang tetap bersabar dan memanggil kawanan gajah lain untuk membantu Gondo keluar dari lumpur.</p>\n<p>Gondo merasa sangat malu dan menyesal.</p>\n<p>\"Maafkan aku, Seli. Maafkan aku semua. Aku telah berlaku sombong,\" kata Gondo dengan suara bergetar.</p>\n<p>Sejak saat itu, Gondo menjadi gajah yang rendah hati dan suka membantu.</p>",
-        "text": "<p>Bagas telah membaca cerita tersebut. Ia merasakan beberapa reaksi saat membacanya. Bagaimana reaksi Bagas saat membaca akhir cerita tersebut?</p>\n<p>Klik pada pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berdasarkan isi teks!</p>",
+        "text": "<p>Bagas telah membaca cerita tersebut. Ia merasakan beberapa reaksi saat membacanya. Bagaimana reaksi Bagas saat membaca akhir cerita tersebut?</p>\n<p>Klik pada pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berdasarkan isi teks!</p>\n",
         "options": [],
         "statements": [
           {
@@ -8712,7 +8689,8 @@ const questions = {
             "text": "<p>Kagum karena Seli tetap mau menolong meskipun pernah diperlakukan tidak baik.</p>",
             "correctAnswer": "benar"
           }
-        ]
+        ],
+        "stimulus": "<p><strong>Gajah yang Angkuh</strong></p>\n<p>Di tengah padang sabana yang luas, hiduplah seekor gajah bernama Gondo. Gondo adalah gajah terbesar di antara kawanannya. Ia merasa tidak ada hewan lain yang bisa menandinginya.</p>\n<p>Suatu hari, Gondo berjalan dengan sombong dan tidak sengaja menginjak sarang semut. Semut-semut itu berlarian panik.</p>\n<p>\"Hei, pergi kalian! Kalian sangat mengganggu!\" teriak Gondo sambil mengibas-ngibaskan kakinya.</p>\n<p>Gondo pun tiba di tepi danau untuk minum. Ia mendorong hewan-hewan lain yang sedang minum karena merasa paling berhak.</p>\n<p>\"Minggir! Aku yang paling besar, akulah yang harus minum duluan!\" kata Gondo dengan keras.</p>\n<p>Seli, gajah yang lebih tua, mendekati Gondo perlahan.</p>\n<p>\"Gondo, ukuran tubuhmu yang besar seharusnya membuatmu lebih bijaksana, bukan lebih angkuh,\" ujar Seli dengan lembut.</p>\n<p>\"Aku tidak butuh nasihatmu,\" jawab Gondo ketus.</p>\n<p>Keesokan harinya, Gondo terperosok ke dalam lumpur dalam. Ia meronta-ronta, tetapi semakin dalam. Hewan-hewan yang pernah ia usir tidak ada yang mau menolong. Hanya Seli yang tetap bersabar dan memanggil kawanan gajah lain untuk membantu Gondo keluar dari lumpur.</p>\n<p>Gondo merasa sangat malu dan menyesal.</p>\n<p>\"Maafkan aku, Seli. Maafkan aku semua. Aku telah berlaku sombong,\" kata Gondo dengan suara bergetar.</p>\n<p>Sejak saat itu, Gondo menjadi gajah yang rendah hati dan suka membantu.</p>"
       },
       {
         "id": 10,
@@ -9383,7 +9361,7 @@ const questions = {
         "id": 7,
         "type": "multiple-answer",
         "stimulus": "<p><strong>Rusa yang Serakah</strong></p>\n<p>Di tengah padang rumput yang hijau, hiduplah seekor rusa bernama Rino. Rino adalah rusa yang paling lincah di kawanannya. Namun, ia sering mengambil bagian makanan yang lebih banyak dari yang ia butuhkan.</p>\n<p>Suatu sore, Rino menemukan ladang semangka milik petani di tepi padang. Ia memakan semangka-semangka itu tanpa sisa, padahal teman-temannya juga lapar.</p>\n<p>\"Rino, sisakan sedikit untuk kami juga!\" pinta Mino, rusa yang lebih kecil.</p>\n<p>\"Cari sendiri, kaki kamu kan juga bisa berlari!\" balas Rino sambil terus mengunyah.</p>\n<p>Dara, rusa yang lebih tua, menghampiri Rino pelan-pelan.</p>\n<p>\"Rino, kecepatanmu berlari seharusnya kamu gunakan untuk membantu kawanan, bukan untuk menyantap segalanya sendiri,\" ujar Dara dengan tenang.</p>\n<p>\"Aku yang cepat, aku yang menemukan. Itu artinya itu milikku,\" jawab Rino acuh.</p>\n<p>Keesokan harinya, Rino tersesat saat memburu makanan sendirian dan terjebak di antara semak berduri. Ia mengerang kesakitan. Kawanan rusa yang sering ia abaikan tidak ada yang datang menolongnya. Hanya Dara yang tetap datang dan memanggil yang lain untuk membantu Rino keluar.</p>\n<p>Rino tertunduk malu dan sangat menyesal.</p>\n<p>\"Maafkan aku, Dara. Maafkan aku semua. Aku terlalu egois,\" ucap Rino dengan suara gemetar.</p>\n<p>Sejak hari itu, Rino selalu berbagi dengan kawanannya dan menjadi rusa yang paling setia kawan.</p>",
-        "text": "<p>Apa yang dijelaskan Dara tentang kecepatan berlari yang dimiliki Rino? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>",
+        "text": "<p>Apa yang dijelaskan Dara tentang kecepatan berlari yang dimiliki Rino? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>\n",
         "options": [
           {
             "id": "A",
@@ -9407,7 +9385,7 @@ const questions = {
         "id": 8,
         "type": "multiple-choice",
         "stimulus": "<p><strong>Rusa yang Serakah</strong></p>\n<p>Di tengah padang rumput yang hijau, hiduplah seekor rusa bernama Rino. Rino adalah rusa yang paling lincah di kawanannya. Namun, ia sering mengambil bagian makanan yang lebih banyak dari yang ia butuhkan.</p>\n<p>Suatu sore, Rino menemukan ladang semangka milik petani di tepi padang. Ia memakan semangka-semangka itu tanpa sisa, padahal teman-temannya juga lapar.</p>\n<p>\"Rino, sisakan sedikit untuk kami juga!\" pinta Mino, rusa yang lebih kecil.</p>\n<p>\"Cari sendiri, kaki kamu kan juga bisa berlari!\" balas Rino sambil terus mengunyah.</p>\n<p>Dara, rusa yang lebih tua, menghampiri Rino pelan-pelan.</p>\n<p>\"Rino, kecepatanmu berlari seharusnya kamu gunakan untuk membantu kawanan, bukan untuk menyantap segalanya sendiri,\" ujar Dara dengan tenang.</p>\n<p>\"Aku yang cepat, aku yang menemukan. Itu artinya itu milikku,\" jawab Rino acuh.</p>\n<p>Keesokan harinya, Rino tersesat saat memburu makanan sendirian dan terjebak di antara semak berduri. Ia mengerang kesakitan. Kawanan rusa yang sering ia abaikan tidak ada yang datang menolongnya. Hanya Dara yang tetap datang dan memanggil yang lain untuk membantu Rino keluar.</p>\n<p>Rino tertunduk malu dan sangat menyesal.</p>\n<p>\"Maafkan aku, Dara. Maafkan aku semua. Aku terlalu egois,\" ucap Rino dengan suara gemetar.</p>\n<p>Sejak hari itu, Rino selalu berbagi dengan kawanannya dan menjadi rusa yang paling setia kawan.</p>",
-        "text": "<p>Apa kejadian yang membuat Rino merasa menyesal?</p>",
+        "text": "<p>Apa kejadian yang membuat Rino merasa menyesal?</p>\n",
         "options": [
           {
             "id": "A",
@@ -9431,8 +9409,7 @@ const questions = {
       {
         "id": 9,
         "type": "true-false-statements",
-        "stimulus": "<p><strong>Rusa yang Serakah</strong></p>\n<p>Di tengah padang rumput yang hijau, hiduplah seekor rusa bernama Rino. Rino adalah rusa yang paling lincah di kawanannya. Namun, ia sering mengambil bagian makanan yang lebih banyak dari yang ia butuhkan.</p>\n<p>Suatu sore, Rino menemukan ladang semangka milik petani di tepi padang. Ia memakan semangka-semangka itu tanpa sisa, padahal teman-temannya juga lapar.</p>\n<p>\"Rino, sisakan sedikit untuk kami juga!\" pinta Mino, rusa yang lebih kecil.</p>\n<p>\"Cari sendiri, kaki kamu kan juga bisa berlari!\" balas Rino sambil terus mengunyah.</p>\n<p>Dara, rusa yang lebih tua, menghampiri Rino pelan-pelan.</p>\n<p>\"Rino, kecepatanmu berlari seharusnya kamu gunakan untuk membantu kawanan, bukan untuk menyantap segalanya sendiri,\" ujar Dara dengan tenang.</p>\n<p>\"Aku yang cepat, aku yang menemukan. Itu artinya itu milikku,\" jawab Rino acuh.</p>\n<p>Keesokan harinya, Rino tersesat saat memburu makanan sendirian dan terjebak di antara semak berduri. Ia mengerang kesakitan. Kawanan rusa yang sering ia abaikan tidak ada yang datang menolongnya. Hanya Dara yang tetap datang dan memanggil yang lain untuk membantu Rino keluar.</p>\n<p>Rino tertunduk malu dan sangat menyesal.</p>\n<p>\"Maafkan aku, Dara. Maafkan aku semua. Aku terlalu egois,\" ucap Rino dengan suara gemetar.</p>\n<p>Sejak hari itu, Rino selalu berbagi dengan kawanannya dan menjadi rusa yang paling setia kawan.</p>",
-        "text": "<p>Dita telah membaca cerita tersebut. Ia merasakan beberapa reaksi saat membacanya. Bagaimana reaksi Dita saat membaca akhir cerita tersebut?</p>\n<p>Klik pada pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berdasarkan isi teks!</p>",
+        "text": "<p>Dita telah membaca cerita tersebut. Ia merasakan beberapa reaksi saat membacanya. Bagaimana reaksi Dita saat membaca akhir cerita tersebut?</p>\n<p>Klik pada pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berdasarkan isi teks!</p>\n",
         "options": [],
         "statements": [
           {
@@ -9450,7 +9427,8 @@ const questions = {
             "text": "<p>Kagum karena Dara tetap mau menolong meskipun Rino sering tidak menghargainya.</p>",
             "correctAnswer": "benar"
           }
-        ]
+        ],
+        "stimulus": "<p><strong>Rusa yang Serakah</strong></p>\n<p>Di tengah padang rumput yang hijau, hiduplah seekor rusa bernama Rino. Rino adalah rusa yang paling lincah di kawanannya. Namun, ia sering mengambil bagian makanan yang lebih banyak dari yang ia butuhkan.</p>\n<p>Suatu sore, Rino menemukan ladang semangka milik petani di tepi padang. Ia memakan semangka-semangka itu tanpa sisa, padahal teman-temannya juga lapar.</p>\n<p>\"Rino, sisakan sedikit untuk kami juga!\" pinta Mino, rusa yang lebih kecil.</p>\n<p>\"Cari sendiri, kaki kamu kan juga bisa berlari!\" balas Rino sambil terus mengunyah.</p>\n<p>Dara, rusa yang lebih tua, menghampiri Rino pelan-pelan.</p>\n<p>\"Rino, kecepatanmu berlari seharusnya kamu gunakan untuk membantu kawanan, bukan untuk menyantap segalanya sendiri,\" ujar Dara dengan tenang.</p>\n<p>\"Aku yang cepat, aku yang menemukan. Itu artinya itu milikku,\" jawab Rino acuh.</p>\n<p>Keesokan harinya, Rino tersesat saat memburu makanan sendirian dan terjebak di antara semak berduri. Ia mengerang kesakitan. Kawanan rusa yang sering ia abaikan tidak ada yang datang menolongnya. Hanya Dara yang tetap datang dan memanggil yang lain untuk membantu Rino keluar.</p>\n<p>Rino tertunduk malu dan sangat menyesal.</p>\n<p>\"Maafkan aku, Dara. Maafkan aku semua. Aku terlalu egois,\" ucap Rino dengan suara gemetar.</p>\n<p>Sejak hari itu, Rino selalu berbagi dengan kawanannya dan menjadi rusa yang paling setia kawan.</p>"
       },
       {
         "id": 10,
@@ -10121,7 +10099,7 @@ const questions = {
         "id": 7,
         "type": "multiple-answer",
         "stimulus": "<p><strong>Rubah yang Serakah</strong></p>\n<p>Di tepi hutan yang rindang, hiduplah seekor rubah bernama Rubi. Rubi dikenal sebagai hewan yang cerdas, tetapi sayangnya ia sangat serakah. Setiap kali menemukan makanan, ia tidak mau berbagi dengan siapa pun.</p>\n<p>Suatu hari, Rubi menemukan pohon jambu yang penuh buah ranum. Ia segera memunguti semua buah jambu itu dan menyimpannya di sarangnya.</p>\n<p>\"Ini semua milikku! Tidak boleh ada yang mengambil!\" serunya sambil menjaga buah-buah itu dengan ketat.</p>\n<p>Miko, kelinci yang tinggal di dekatnya, menghampiri dengan sopan.</p>\n<p>\"Rubi, boleh aku minta sedikit? Anak-anakku sedang lapar,\" pinta Miko dengan lembut.</p>\n<p>\"Tidak bisa! Cari sendiri makananmu!\" tolak Rubi dengan kasar.</p>\n<p>Beberapa hari kemudian, buah-buah jambu yang ditimbun Rubi mulai membusuk karena terlalu banyak dan tidak habis dimakan. Rubi menatap buah-buah busuk itu dengan sedih.</p>\n<p>Kakek Kancil yang bijak mendekatinya. \"Rubi, jika saja kau mau berbagi, buah-buah itu akan berguna bagi banyak hewan. Kini semuanya terbuang sia-sia,\" kata Kakek Kancil dengan tenang.</p>\n<p>Rubi tertunduk malu. Ia menyesal tidak mau berbagi saat masih ada kesempatan. Sejak hari itu, Rubi berjanji untuk tidak serakah lagi.</p>",
-        "text": "<p>Apa yang dijelaskan Kakek Kancil tentang buah jambu yang ditimbun Rubi? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>",
+        "text": "<p>Apa yang dijelaskan Kakek Kancil tentang buah jambu yang ditimbun Rubi? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>\n",
         "options": [
           {
             "id": "A",
@@ -10145,7 +10123,7 @@ const questions = {
         "id": 8,
         "type": "multiple-choice",
         "stimulus": "<p><strong>Rubah yang Serakah</strong></p>\n<p>Di tepi hutan yang rindang, hiduplah seekor rubah bernama Rubi. Rubi dikenal sebagai hewan yang cerdas, tetapi sayangnya ia sangat serakah. Setiap kali menemukan makanan, ia tidak mau berbagi dengan siapa pun.</p>\n<p>Suatu hari, Rubi menemukan pohon jambu yang penuh buah ranum. Ia segera memunguti semua buah jambu itu dan menyimpannya di sarangnya.</p>\n<p>\"Ini semua milikku! Tidak boleh ada yang mengambil!\" serunya sambil menjaga buah-buah itu dengan ketat.</p>\n<p>Miko, kelinci yang tinggal di dekatnya, menghampiri dengan sopan.</p>\n<p>\"Rubi, boleh aku minta sedikit? Anak-anakku sedang lapar,\" pinta Miko dengan lembut.</p>\n<p>\"Tidak bisa! Cari sendiri makananmu!\" tolak Rubi dengan kasar.</p>\n<p>Beberapa hari kemudian, buah-buah jambu yang ditimbun Rubi mulai membusuk karena terlalu banyak dan tidak habis dimakan. Rubi menatap buah-buah busuk itu dengan sedih.</p>\n<p>Kakek Kancil yang bijak mendekatinya. \"Rubi, jika saja kau mau berbagi, buah-buah itu akan berguna bagi banyak hewan. Kini semuanya terbuang sia-sia,\" kata Kakek Kancil dengan tenang.</p>\n<p>Rubi tertunduk malu. Ia menyesal tidak mau berbagi saat masih ada kesempatan. Sejak hari itu, Rubi berjanji untuk tidak serakah lagi.</p>",
-        "text": "<p>Apa kejadian yang membuat Rubi merasa menyesal?</p>",
+        "text": "<p>Apa kejadian yang membuat Rubi merasa menyesal?</p>\n",
         "options": [
           {
             "id": "A",
@@ -10169,8 +10147,7 @@ const questions = {
       {
         "id": 9,
         "type": "true-false-statements",
-        "stimulus": "<p><strong>Rubah yang Serakah</strong></p>\n<p>Di tepi hutan yang rindang, hiduplah seekor rubah bernama Rubi. Rubi dikenal sebagai hewan yang cerdas, tetapi sayangnya ia sangat serakah. Setiap kali menemukan makanan, ia tidak mau berbagi dengan siapa pun.</p>\n<p>Suatu hari, Rubi menemukan pohon jambu yang penuh buah ranum. Ia segera memunguti semua buah jambu itu dan menyimpannya di sarangnya.</p>\n<p>\"Ini semua milikku! Tidak boleh ada yang mengambil!\" serunya sambil menjaga buah-buah itu dengan ketat.</p>\n<p>Miko, kelinci yang tinggal di dekatnya, menghampiri dengan sopan.</p>\n<p>\"Rubi, boleh aku minta sedikit? Anak-anakku sedang lapar,\" pinta Miko dengan lembut.</p>\n<p>\"Tidak bisa! Cari sendiri makananmu!\" tolak Rubi dengan kasar.</p>\n<p>Beberapa hari kemudian, buah-buah jambu yang ditimbun Rubi mulai membusuk karena terlalu banyak dan tidak habis dimakan. Rubi menatap buah-buah busuk itu dengan sedih.</p>\n<p>Kakek Kancil yang bijak mendekatinya. \"Rubi, jika saja kau mau berbagi, buah-buah itu akan berguna bagi banyak hewan. Kini semuanya terbuang sia-sia,\" kata Kakek Kancil dengan tenang.</p>\n<p>Rubi tertunduk malu. Ia menyesal tidak mau berbagi saat masih ada kesempatan. Sejak hari itu, Rubi berjanji untuk tidak serakah lagi.</p>",
-        "text": "<p>Dina telah membaca cerita tersebut. Ia merasakan beberapa reaksi saat membacanya. Bagaimana reaksi Dina saat membaca akhir cerita tersebut?</p>\n<p>Klik pada pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berdasarkan isi teks!</p>",
+        "text": "<p>Dina telah membaca cerita tersebut. Ia merasakan beberapa reaksi saat membacanya. Bagaimana reaksi Dina saat membaca akhir cerita tersebut?</p>\n<p>Klik pada pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berdasarkan isi teks!</p>\n",
         "options": [],
         "statements": [
           {
@@ -10188,7 +10165,8 @@ const questions = {
             "text": "<p>Kagum karena Kakek Kancil menegur Rubi dengan cara yang bijak dan tidak menyakiti.</p>",
             "correctAnswer": "benar"
           }
-        ]
+        ],
+        "stimulus": "<p><strong>Rubah yang Serakah</strong></p>\n<p>Di tepi hutan yang rindang, hiduplah seekor rubah bernama Rubi. Rubi dikenal sebagai hewan yang cerdas, tetapi sayangnya ia sangat serakah. Setiap kali menemukan makanan, ia tidak mau berbagi dengan siapa pun.</p>\n<p>Suatu hari, Rubi menemukan pohon jambu yang penuh buah ranum. Ia segera memunguti semua buah jambu itu dan menyimpannya di sarangnya.</p>\n<p>\"Ini semua milikku! Tidak boleh ada yang mengambil!\" serunya sambil menjaga buah-buah itu dengan ketat.</p>\n<p>Miko, kelinci yang tinggal di dekatnya, menghampiri dengan sopan.</p>\n<p>\"Rubi, boleh aku minta sedikit? Anak-anakku sedang lapar,\" pinta Miko dengan lembut.</p>\n<p>\"Tidak bisa! Cari sendiri makananmu!\" tolak Rubi dengan kasar.</p>\n<p>Beberapa hari kemudian, buah-buah jambu yang ditimbun Rubi mulai membusuk karena terlalu banyak dan tidak habis dimakan. Rubi menatap buah-buah busuk itu dengan sedih.</p>\n<p>Kakek Kancil yang bijak mendekatinya. \"Rubi, jika saja kau mau berbagi, buah-buah itu akan berguna bagi banyak hewan. Kini semuanya terbuang sia-sia,\" kata Kakek Kancil dengan tenang.</p>\n<p>Rubi tertunduk malu. Ia menyesal tidak mau berbagi saat masih ada kesempatan. Sejak hari itu, Rubi berjanji untuk tidak serakah lagi.</p>"
       },
       {
         "id": 10,
@@ -10859,7 +10837,7 @@ const questions = {
         "id": 7,
         "type": "multiple-answer",
         "stimulus": "<p><strong>Gagak yang Iri Hati</strong></p>\n<p>Di tepian danau yang indah, hiduplah seekor gagak bernama Gara. Ia pandai terbang dan cerdas, namun selalu merasa iri melihat keindahan hewan lain. Ia paling sering iri kepada angsa putih bernama Anggi yang berbulu bersih dan cantik.</p>\n<p>Suatu hari, Gara mencuri bulu-bulu putih Anggi yang jatuh di tepi danau dan menempelkannya ke tubuhnya.</p>\n<p>\"Sekarang aku terlihat indah seperti Anggi!\" seru Gara dengan puas.</p>\n<p>Ia berjalan sombong di depan hewan-hewan lain. Namun, bulu-bulu tempelan itu segera jatuh saat terkena angin.</p>\n<p>Burung pipit tua bernama Wening menggeleng pelan.</p>\n<p>\"Gara, kamu tidak perlu menjadi orang lain untuk terlihat berharga. Kepandaianmu terbang adalah anugerah yang tidak dimiliki semua hewan,\" ujar Wening lembut.</p>\n<p>\"Tapi aku tidak seindah Anggi,\" rungut Gara.</p>\n<p>\"Keindahan bukan hanya soal penampilan. Anggi pun mengagumimu karena kamu bisa terbang begitu tinggi,\" jawab Wening.</p>\n<p>Anggi yang mendengar percakapan itu mengangguk dan tersenyum. \"Benar, Gara. Aku pun sering ingin bisa terbang setinggi dirimu.\"</p>\n<p>Gara terdiam. Perlahan ia menyadari bahwa selama ini ia terlalu sibuk melihat kelebihan orang lain hingga lupa bersyukur atas kelebihannya sendiri.</p>\n<p>Sejak hari itu, Gara tidak lagi iri. Ia bangga menjadi dirinya sendiri.</p>",
-        "text": "<p>Apa yang disampaikan Wening dan Anggi kepada Gara? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>",
+        "text": "<p>Apa yang disampaikan Wening dan Anggi kepada Gara? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>\n",
         "options": [
           {
             "id": "A",
@@ -10883,7 +10861,7 @@ const questions = {
         "id": 8,
         "type": "multiple-choice",
         "stimulus": "<p><strong>Gagak yang Iri Hati</strong></p>\n<p>Di tepian danau yang indah, hiduplah seekor gagak bernama Gara. Ia pandai terbang dan cerdas, namun selalu merasa iri melihat keindahan hewan lain. Ia paling sering iri kepada angsa putih bernama Anggi yang berbulu bersih dan cantik.</p>\n<p>Suatu hari, Gara mencuri bulu-bulu putih Anggi yang jatuh di tepi danau dan menempelkannya ke tubuhnya.</p>\n<p>\"Sekarang aku terlihat indah seperti Anggi!\" seru Gara dengan puas.</p>\n<p>Ia berjalan sombong di depan hewan-hewan lain. Namun, bulu-bulu tempelan itu segera jatuh saat terkena angin.</p>\n<p>Burung pipit tua bernama Wening menggeleng pelan.</p>\n<p>\"Gara, kamu tidak perlu menjadi orang lain untuk terlihat berharga. Kepandaianmu terbang adalah anugerah yang tidak dimiliki semua hewan,\" ujar Wening lembut.</p>\n<p>\"Tapi aku tidak seindah Anggi,\" rungut Gara.</p>\n<p>\"Keindahan bukan hanya soal penampilan. Anggi pun mengagumimu karena kamu bisa terbang begitu tinggi,\" jawab Wening.</p>\n<p>Anggi yang mendengar percakapan itu mengangguk dan tersenyum. \"Benar, Gara. Aku pun sering ingin bisa terbang setinggi dirimu.\"</p>\n<p>Gara terdiam. Perlahan ia menyadari bahwa selama ini ia terlalu sibuk melihat kelebihan orang lain hingga lupa bersyukur atas kelebihannya sendiri.</p>\n<p>Sejak hari itu, Gara tidak lagi iri. Ia bangga menjadi dirinya sendiri.</p>",
-        "text": "<p>Apa kejadian yang membuat Gara menyadari kesalahannya?</p>",
+        "text": "<p>Apa kejadian yang membuat Gara menyadari kesalahannya?</p>\n",
         "options": [
           {
             "id": "A",
@@ -10907,8 +10885,7 @@ const questions = {
       {
         "id": 9,
         "type": "true-false-statements",
-        "stimulus": "<p><strong>Gagak yang Iri Hati</strong></p>\n<p>Di tepian danau yang indah, hiduplah seekor gagak bernama Gara. Ia pandai terbang dan cerdas, namun selalu merasa iri melihat keindahan hewan lain. Ia paling sering iri kepada angsa putih bernama Anggi yang berbulu bersih dan cantik.</p>\n<p>Suatu hari, Gara mencuri bulu-bulu putih Anggi yang jatuh di tepi danau dan menempelkannya ke tubuhnya.</p>\n<p>\"Sekarang aku terlihat indah seperti Anggi!\" seru Gara dengan puas.</p>\n<p>Ia berjalan sombong di depan hewan-hewan lain. Namun, bulu-bulu tempelan itu segera jatuh saat terkena angin.</p>\n<p>Burung pipit tua bernama Wening menggeleng pelan.</p>\n<p>\"Gara, kamu tidak perlu menjadi orang lain untuk terlihat berharga. Kepandaianmu terbang adalah anugerah yang tidak dimiliki semua hewan,\" ujar Wening lembut.</p>\n<p>\"Tapi aku tidak seindah Anggi,\" rungut Gara.</p>\n<p>\"Keindahan bukan hanya soal penampilan. Anggi pun mengagumimu karena kamu bisa terbang begitu tinggi,\" jawab Wening.</p>\n<p>Anggi yang mendengar percakapan itu mengangguk dan tersenyum. \"Benar, Gara. Aku pun sering ingin bisa terbang setinggi dirimu.\"</p>\n<p>Gara terdiam. Perlahan ia menyadari bahwa selama ini ia terlalu sibuk melihat kelebihan orang lain hingga lupa bersyukur atas kelebihannya sendiri.</p>\n<p>Sejak hari itu, Gara tidak lagi iri. Ia bangga menjadi dirinya sendiri.</p>",
-        "text": "<p>Dira telah membaca cerita tersebut. Ia merasakan beberapa reaksi saat membacanya. Bagaimana reaksi Dira saat membaca akhir cerita tersebut?</p>\n<p>Klik pada pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berdasarkan isi teks!</p>",
+        "text": "<p>Dira telah membaca cerita tersebut. Ia merasakan beberapa reaksi saat membacanya. Bagaimana reaksi Dira saat membaca akhir cerita tersebut?</p>\n<p>Klik pada pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berdasarkan isi teks!</p>\n",
         "options": [],
         "statements": [
           {
@@ -10926,7 +10903,8 @@ const questions = {
             "text": "<p>Kagum karena Wening mampu menyampaikan nasihat dengan cara yang lembut dan bijaksana.</p>",
             "correctAnswer": "benar"
           }
-        ]
+        ],
+        "stimulus": "<p><strong>Gagak yang Iri Hati</strong></p>\n<p>Di tepian danau yang indah, hiduplah seekor gagak bernama Gara. Ia pandai terbang dan cerdas, namun selalu merasa iri melihat keindahan hewan lain. Ia paling sering iri kepada angsa putih bernama Anggi yang berbulu bersih dan cantik.</p>\n<p>Suatu hari, Gara mencuri bulu-bulu putih Anggi yang jatuh di tepi danau dan menempelkannya ke tubuhnya.</p>\n<p>\"Sekarang aku terlihat indah seperti Anggi!\" seru Gara dengan puas.</p>\n<p>Ia berjalan sombong di depan hewan-hewan lain. Namun, bulu-bulu tempelan itu segera jatuh saat terkena angin.</p>\n<p>Burung pipit tua bernama Wening menggeleng pelan.</p>\n<p>\"Gara, kamu tidak perlu menjadi orang lain untuk terlihat berharga. Kepandaianmu terbang adalah anugerah yang tidak dimiliki semua hewan,\" ujar Wening lembut.</p>\n<p>\"Tapi aku tidak seindah Anggi,\" rungut Gara.</p>\n<p>\"Keindahan bukan hanya soal penampilan. Anggi pun mengagumimu karena kamu bisa terbang begitu tinggi,\" jawab Wening.</p>\n<p>Anggi yang mendengar percakapan itu mengangguk dan tersenyum. \"Benar, Gara. Aku pun sering ingin bisa terbang setinggi dirimu.\"</p>\n<p>Gara terdiam. Perlahan ia menyadari bahwa selama ini ia terlalu sibuk melihat kelebihan orang lain hingga lupa bersyukur atas kelebihannya sendiri.</p>\n<p>Sejak hari itu, Gara tidak lagi iri. Ia bangga menjadi dirinya sendiri.</p>"
       },
       {
         "id": 10,
@@ -11597,7 +11575,7 @@ const questions = {
         "id": 7,
         "type": "multiple-answer",
         "stimulus": "<p><strong>Kancil yang Serakah</strong></p>\n<p>Di pinggir hutan yang rindang, hiduplah seekor kancil bernama Ciko. Ciko dikenal sebagai hewan paling cerdik di hutan. Namun, lama-kelamaan ia menjadi sombong dan suka mengambil keuntungan dari hewan lain.</p>\n<p>Suatu hari, Ciko menemukan pohon jambu yang sedang berbuah lebat. Ia langsung memakannya sendiri tanpa memberi tahu hewan lain.</p>\n<p>\"Ini semua milikku! Akulah yang menemukannya duluan,\" pikir Ciko sambil makan dengan lahap.</p>\n<p>Ketika hewan-hewan lain datang dan ingin mencicipi, Ciko mengusir mereka dengan kasar.</p>\n<p>\"Pergi! Cari sendiri makananmu!\" hardik Ciko dengan sombong.</p>\n<p>Nuri, burung yang paling tua dan bijak di hutan, hinggap di dahan dekat Ciko.</p>\n<p>\"Ciko, kecerdasanmu seharusnya kamu gunakan untuk menolong sesama, bukan untuk kepentinganmu sendiri,\" kata Nuri dengan tenang.</p>\n<p>\"Aku tidak peduli pendapatmu,\" balas Ciko ketus.</p>\n<p>Beberapa hari kemudian, buah jambu habis. Ciko kelaparan dan mencari makanan ke seluruh hutan. Namun, tidak ada satu pun hewan yang mau membantunya karena mereka masih ingat perlakuan Ciko. Hanya Nuri yang tetap bersedia menunjukkan pohon buah lain, asalkan Ciko mau berbagi dengan semua hewan.</p>\n<p>Ciko merasa sangat malu dan menyesal.</p>\n<p>\"Maafkan aku, Nuri. Maafkan aku semua. Aku telah berlaku serakah dan tidak adil,\" kata Ciko dengan suara pelan.</p>\n<p>Sejak saat itu, Ciko menggunakan kecerdasannya untuk membantu seluruh penghuni hutan.</p>",
-        "text": "<p>Apa yang dijelaskan Nuri tentang kecerdasan Ciko? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>",
+        "text": "<p>Apa yang dijelaskan Nuri tentang kecerdasan Ciko? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>\n",
         "options": [
           {
             "id": "A",
@@ -11621,7 +11599,7 @@ const questions = {
         "id": 8,
         "type": "multiple-choice",
         "stimulus": "<p><strong>Kancil yang Serakah</strong></p>\n<p>Di pinggir hutan yang rindang, hiduplah seekor kancil bernama Ciko. Ciko dikenal sebagai hewan paling cerdik di hutan. Namun, lama-kelamaan ia menjadi sombong dan suka mengambil keuntungan dari hewan lain.</p>\n<p>Suatu hari, Ciko menemukan pohon jambu yang sedang berbuah lebat. Ia langsung memakannya sendiri tanpa memberi tahu hewan lain.</p>\n<p>\"Ini semua milikku! Akulah yang menemukannya duluan,\" pikir Ciko sambil makan dengan lahap.</p>\n<p>Ketika hewan-hewan lain datang dan ingin mencicipi, Ciko mengusir mereka dengan kasar.</p>\n<p>\"Pergi! Cari sendiri makananmu!\" hardik Ciko dengan sombong.</p>\n<p>Nuri, burung yang paling tua dan bijak di hutan, hinggap di dahan dekat Ciko.</p>\n<p>\"Ciko, kecerdasanmu seharusnya kamu gunakan untuk menolong sesama, bukan untuk kepentinganmu sendiri,\" kata Nuri dengan tenang.</p>\n<p>\"Aku tidak peduli pendapatmu,\" balas Ciko ketus.</p>\n<p>Beberapa hari kemudian, buah jambu habis. Ciko kelaparan dan mencari makanan ke seluruh hutan. Namun, tidak ada satu pun hewan yang mau membantunya karena mereka masih ingat perlakuan Ciko. Hanya Nuri yang tetap bersedia menunjukkan pohon buah lain, asalkan Ciko mau berbagi dengan semua hewan.</p>\n<p>Ciko merasa sangat malu dan menyesal.</p>\n<p>\"Maafkan aku, Nuri. Maafkan aku semua. Aku telah berlaku serakah dan tidak adil,\" kata Ciko dengan suara pelan.</p>\n<p>Sejak saat itu, Ciko menggunakan kecerdasannya untuk membantu seluruh penghuni hutan.</p>",
-        "text": "<p>Apa kejadian yang membuat Ciko merasa menyesal?</p>",
+        "text": "<p>Apa kejadian yang membuat Ciko merasa menyesal?</p>\n",
         "options": [
           {
             "id": "A",
@@ -11645,8 +11623,7 @@ const questions = {
       {
         "id": 9,
         "type": "true-false-statements",
-        "stimulus": "<p><strong>Kancil yang Serakah</strong></p>\n<p>Di pinggir hutan yang rindang, hiduplah seekor kancil bernama Ciko. Ciko dikenal sebagai hewan paling cerdik di hutan. Namun, lama-kelamaan ia menjadi sombong dan suka mengambil keuntungan dari hewan lain.</p>\n<p>Suatu hari, Ciko menemukan pohon jambu yang sedang berbuah lebat. Ia langsung memakannya sendiri tanpa memberi tahu hewan lain.</p>\n<p>\"Ini semua milikku! Akulah yang menemukannya duluan,\" pikir Ciko sambil makan dengan lahap.</p>\n<p>Ketika hewan-hewan lain datang dan ingin mencicipi, Ciko mengusir mereka dengan kasar.</p>\n<p>\"Pergi! Cari sendiri makananmu!\" hardik Ciko dengan sombong.</p>\n<p>Nuri, burung yang paling tua dan bijak di hutan, hinggap di dahan dekat Ciko.</p>\n<p>\"Ciko, kecerdasanmu seharusnya kamu gunakan untuk menolong sesama, bukan untuk kepentinganmu sendiri,\" kata Nuri dengan tenang.</p>\n<p>\"Aku tidak peduli pendapatmu,\" balas Ciko ketus.</p>\n<p>Beberapa hari kemudian, buah jambu habis. Ciko kelaparan dan mencari makanan ke seluruh hutan. Namun, tidak ada satu pun hewan yang mau membantunya karena mereka masih ingat perlakuan Ciko. Hanya Nuri yang tetap bersedia menunjukkan pohon buah lain, asalkan Ciko mau berbagi dengan semua hewan.</p>\n<p>Ciko merasa sangat malu dan menyesal.</p>\n<p>\"Maafkan aku, Nuri. Maafkan aku semua. Aku telah berlaku serakah dan tidak adil,\" kata Ciko dengan suara pelan.</p>\n<p>Sejak saat itu, Ciko menggunakan kecerdasannya untuk membantu seluruh penghuni hutan.</p>",
-        "text": "<p>Lila telah membaca cerita tersebut. Ia merasakan beberapa reaksi saat membacanya. Bagaimana reaksi Lila saat membaca akhir cerita tersebut?</p>\n<p>Klik pada pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berdasarkan isi teks!</p>",
+        "text": "<p>Lila telah membaca cerita tersebut. Ia merasakan beberapa reaksi saat membacanya. Bagaimana reaksi Lila saat membaca akhir cerita tersebut?</p>\n<p>Klik pada pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berdasarkan isi teks!</p>\n",
         "options": [],
         "statements": [
           {
@@ -11664,7 +11641,8 @@ const questions = {
             "text": "<p>Kagum karena Nuri tetap sabar dan bersedia membantu meskipun Ciko pernah bersikap ketus.</p>",
             "correctAnswer": "benar"
           }
-        ]
+        ],
+        "stimulus": "<p><strong>Kancil yang Serakah</strong></p>\n<p>Di pinggir hutan yang rindang, hiduplah seekor kancil bernama Ciko. Ciko dikenal sebagai hewan paling cerdik di hutan. Namun, lama-kelamaan ia menjadi sombong dan suka mengambil keuntungan dari hewan lain.</p>\n<p>Suatu hari, Ciko menemukan pohon jambu yang sedang berbuah lebat. Ia langsung memakannya sendiri tanpa memberi tahu hewan lain.</p>\n<p>\"Ini semua milikku! Akulah yang menemukannya duluan,\" pikir Ciko sambil makan dengan lahap.</p>\n<p>Ketika hewan-hewan lain datang dan ingin mencicipi, Ciko mengusir mereka dengan kasar.</p>\n<p>\"Pergi! Cari sendiri makananmu!\" hardik Ciko dengan sombong.</p>\n<p>Nuri, burung yang paling tua dan bijak di hutan, hinggap di dahan dekat Ciko.</p>\n<p>\"Ciko, kecerdasanmu seharusnya kamu gunakan untuk menolong sesama, bukan untuk kepentinganmu sendiri,\" kata Nuri dengan tenang.</p>\n<p>\"Aku tidak peduli pendapatmu,\" balas Ciko ketus.</p>\n<p>Beberapa hari kemudian, buah jambu habis. Ciko kelaparan dan mencari makanan ke seluruh hutan. Namun, tidak ada satu pun hewan yang mau membantunya karena mereka masih ingat perlakuan Ciko. Hanya Nuri yang tetap bersedia menunjukkan pohon buah lain, asalkan Ciko mau berbagi dengan semua hewan.</p>\n<p>Ciko merasa sangat malu dan menyesal.</p>\n<p>\"Maafkan aku, Nuri. Maafkan aku semua. Aku telah berlaku serakah dan tidak adil,\" kata Ciko dengan suara pelan.</p>\n<p>Sejak saat itu, Ciko menggunakan kecerdasannya untuk membantu seluruh penghuni hutan.</p>"
       },
       {
         "id": 10,
@@ -12335,7 +12313,7 @@ const questions = {
         "id": 7,
         "type": "multiple-answer",
         "stimulus": "<p><strong>Singa yang Takut Kegelapan</strong></p>\n<p>Di sebuah hutan lebat, hiduplah seekor singa bernama Rinto. Rinto dikenal sebagai raja hutan yang gagah dan disegani semua hewan. Namun ada satu rahasia yang tidak diketahui siapa pun: Rinto sangat takut pada kegelapan.</p>\n<p>Setiap malam, Rinto selalu berdiam di dalam gua dengan banyak obor menyala.</p>\n<p>\"Jangan matikan obornya! Aku tidak mau gelap!\" perintah Rinto pada hewan-hewan kecil yang membantunya.</p>\n<p>Suatu malam, angin kencang mematikan semua obor sekaligus. Rinto berteriak ketakutan.</p>\n<p>Kancil bernama Ciko mendengar teriakan itu dan berlari ke arah gua.</p>\n<p>\"Ada apa, Rinto?\" tanya Ciko cemas.</p>\n<p>\"Gelapnya! Aku takut gelap!\" jawab Rinto dengan suara gemetar.</p>\n<p>Ciko tidak menertawakan Rinto. Ia justru duduk di samping Rinto dan berkata pelan, \"Rasa takut bukan aib, Rinto. Semua makhluk punya ketakutannya sendiri. Yang penting, kita tidak membiarkan rasa takut menguasai kita.\"</p>\n<p>\"Tapi aku raja hutan. Aku seharusnya tidak takut pada apa pun,\" kata Rinto lemah.</p>\n<p>\"Justru raja yang baik adalah raja yang jujur pada dirinya sendiri,\" ujar Ciko bijak.</p>\n<p>Rinto terdiam lama. Ia akhirnya memutuskan untuk belajar menghadapi rasa takutnya sedikit demi sedikit. Setiap malam, ia mulai mematikan satu obor, lalu dua, hingga akhirnya ia bisa tidur nyenyak tanpa satu pun obor menyala.</p>",
-        "text": "<p>Apa yang dikatakan Ciko tentang rasa takut? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>",
+        "text": "<p>Apa yang dikatakan Ciko tentang rasa takut? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>\n",
         "options": [
           {
             "id": "A",
@@ -12359,7 +12337,7 @@ const questions = {
         "id": 8,
         "type": "multiple-choice",
         "stimulus": "<p><strong>Singa yang Takut Kegelapan</strong></p>\n<p>Di sebuah hutan lebat, hiduplah seekor singa bernama Rinto. Rinto dikenal sebagai raja hutan yang gagah dan disegani semua hewan. Namun ada satu rahasia yang tidak diketahui siapa pun: Rinto sangat takut pada kegelapan.</p>\n<p>Setiap malam, Rinto selalu berdiam di dalam gua dengan banyak obor menyala.</p>\n<p>\"Jangan matikan obornya! Aku tidak mau gelap!\" perintah Rinto pada hewan-hewan kecil yang membantunya.</p>\n<p>Suatu malam, angin kencang mematikan semua obor sekaligus. Rinto berteriak ketakutan.</p>\n<p>Kancil bernama Ciko mendengar teriakan itu dan berlari ke arah gua.</p>\n<p>\"Ada apa, Rinto?\" tanya Ciko cemas.</p>\n<p>\"Gelapnya! Aku takut gelap!\" jawab Rinto dengan suara gemetar.</p>\n<p>Ciko tidak menertawakan Rinto. Ia justru duduk di samping Rinto dan berkata pelan, \"Rasa takut bukan aib, Rinto. Semua makhluk punya ketakutannya sendiri. Yang penting, kita tidak membiarkan rasa takut menguasai kita.\"</p>\n<p>\"Tapi aku raja hutan. Aku seharusnya tidak takut pada apa pun,\" kata Rinto lemah.</p>\n<p>\"Justru raja yang baik adalah raja yang jujur pada dirinya sendiri,\" ujar Ciko bijak.</p>\n<p>Rinto terdiam lama. Ia akhirnya memutuskan untuk belajar menghadapi rasa takutnya sedikit demi sedikit. Setiap malam, ia mulai mematikan satu obor, lalu dua, hingga akhirnya ia bisa tidur nyenyak tanpa satu pun obor menyala.</p>",
-        "text": "<p>Apa yang membuat Rinto akhirnya mau menghadapi rasa takutnya?</p>",
+        "text": "<p>Apa yang membuat Rinto akhirnya mau menghadapi rasa takutnya?</p>\n",
         "options": [
           {
             "id": "A",
@@ -12383,8 +12361,7 @@ const questions = {
       {
         "id": 9,
         "type": "true-false-statements",
-        "stimulus": "<p><strong>Singa yang Takut Kegelapan</strong></p>\n<p>Di sebuah hutan lebat, hiduplah seekor singa bernama Rinto. Rinto dikenal sebagai raja hutan yang gagah dan disegani semua hewan. Namun ada satu rahasia yang tidak diketahui siapa pun: Rinto sangat takut pada kegelapan.</p>\n<p>Setiap malam, Rinto selalu berdiam di dalam gua dengan banyak obor menyala.</p>\n<p>\"Jangan matikan obornya! Aku tidak mau gelap!\" perintah Rinto pada hewan-hewan kecil yang membantunya.</p>\n<p>Suatu malam, angin kencang mematikan semua obor sekaligus. Rinto berteriak ketakutan.</p>\n<p>Kancil bernama Ciko mendengar teriakan itu dan berlari ke arah gua.</p>\n<p>\"Ada apa, Rinto?\" tanya Ciko cemas.</p>\n<p>\"Gelapnya! Aku takut gelap!\" jawab Rinto dengan suara gemetar.</p>\n<p>Ciko tidak menertawakan Rinto. Ia justru duduk di samping Rinto dan berkata pelan, \"Rasa takut bukan aib, Rinto. Semua makhluk punya ketakutannya sendiri. Yang penting, kita tidak membiarkan rasa takut menguasai kita.\"</p>\n<p>\"Tapi aku raja hutan. Aku seharusnya tidak takut pada apa pun,\" kata Rinto lemah.</p>\n<p>\"Justru raja yang baik adalah raja yang jujur pada dirinya sendiri,\" ujar Ciko bijak.</p>\n<p>Rinto terdiam lama. Ia akhirnya memutuskan untuk belajar menghadapi rasa takutnya sedikit demi sedikit. Setiap malam, ia mulai mematikan satu obor, lalu dua, hingga akhirnya ia bisa tidur nyenyak tanpa satu pun obor menyala.</p>",
-        "text": "<p>Dira telah membaca cerita tersebut. Ia merasakan beberapa reaksi saat membacanya. Bagaimana reaksi Dira saat membaca akhir cerita tersebut?</p>\n<p>Klik pada pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berdasarkan isi teks!</p>",
+        "text": "<p>Dira telah membaca cerita tersebut. Ia merasakan beberapa reaksi saat membacanya. Bagaimana reaksi Dira saat membaca akhir cerita tersebut?</p>\n<p>Klik pada pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berdasarkan isi teks!</p>\n",
         "options": [],
         "statements": [
           {
@@ -12402,7 +12379,8 @@ const questions = {
             "text": "<p>Terinspirasi karena cerita ini mengajarkan bahwa jujur pada diri sendiri itu penting.</p>",
             "correctAnswer": "benar"
           }
-        ]
+        ],
+        "stimulus": "<p><strong>Singa yang Takut Kegelapan</strong></p>\n<p>Di sebuah hutan lebat, hiduplah seekor singa bernama Rinto. Rinto dikenal sebagai raja hutan yang gagah dan disegani semua hewan. Namun ada satu rahasia yang tidak diketahui siapa pun: Rinto sangat takut pada kegelapan.</p>\n<p>Setiap malam, Rinto selalu berdiam di dalam gua dengan banyak obor menyala.</p>\n<p>\"Jangan matikan obornya! Aku tidak mau gelap!\" perintah Rinto pada hewan-hewan kecil yang membantunya.</p>\n<p>Suatu malam, angin kencang mematikan semua obor sekaligus. Rinto berteriak ketakutan.</p>\n<p>Kancil bernama Ciko mendengar teriakan itu dan berlari ke arah gua.</p>\n<p>\"Ada apa, Rinto?\" tanya Ciko cemas.</p>\n<p>\"Gelapnya! Aku takut gelap!\" jawab Rinto dengan suara gemetar.</p>\n<p>Ciko tidak menertawakan Rinto. Ia justru duduk di samping Rinto dan berkata pelan, \"Rasa takut bukan aib, Rinto. Semua makhluk punya ketakutannya sendiri. Yang penting, kita tidak membiarkan rasa takut menguasai kita.\"</p>\n<p>\"Tapi aku raja hutan. Aku seharusnya tidak takut pada apa pun,\" kata Rinto lemah.</p>\n<p>\"Justru raja yang baik adalah raja yang jujur pada dirinya sendiri,\" ujar Ciko bijak.</p>\n<p>Rinto terdiam lama. Ia akhirnya memutuskan untuk belajar menghadapi rasa takutnya sedikit demi sedikit. Setiap malam, ia mulai mematikan satu obor, lalu dua, hingga akhirnya ia bisa tidur nyenyak tanpa satu pun obor menyala.</p>"
       },
       {
         "id": 10,
@@ -13073,7 +13051,7 @@ const questions = {
         "id": 7,
         "type": "multiple-answer",
         "stimulus": "<p><strong>Bintang yang Redup</strong></p>\n<p>Dika adalah anak yang pandai bermain biola. Setiap latihan, ia selalu menjadi yang pertama datang dan terakhir pulang. Namun, menjelang lomba musik antarsekolah, ia mendengar kabar bahwa peserta dari sekolah lain adalah juara nasional dua tahun berturut-turut.</p>\n<p>Sejak hari itu, semangat Dika perlahan padam. Ia mulai sering absen latihan. Ketika ditanya, ia selalu berkata, \"Untuk apa? Kita pasti kalah.\"</p>\n<p>Bu Reni, guru musiknya, memanggil Dika ke ruang musik.</p>\n<p>\"Dika, kamu tahu kenapa bintang tetap bersinar meski siang hari?\" tanya Bu Reni.</p>\n<p>Dika menggeleng bingung.</p>\n<p>\"Karena bintang tidak berhenti memancarkan cahaya hanya karena ada matahari yang lebih terang. Begitu pun kamu. Pesaing yang kuat seharusnya membuatmu bersinar lebih keras, bukan memadamkan cahayamu.\"</p>\n<p>Dika terdiam lama. Air mata menetes pelan di pipinya.</p>\n<p>Esok harinya, Dika kembali datang lebih awal. Jari-jarinya kembali menekan senar biola dengan penuh keyakinan.</p>\n<p>Pada hari lomba, Dika tidak meraih juara pertama. Tapi ia berhasil memainkan lagu terbaiknya. Saat turun dari panggung, Bu Reni menyambutnya dengan senyum hangat.</p>\n<p>\"Itulah bintangmu, Dika.\"</p>",
-        "text": "<p>Apa yang menyebabkan semangat Dika mulai menurun menjelang lomba? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>",
+        "text": "<p>Apa yang menyebabkan semangat Dika mulai menurun menjelang lomba? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>\n",
         "options": [
           {
             "id": "A",
@@ -13097,7 +13075,7 @@ const questions = {
         "id": 8,
         "type": "multiple-choice",
         "stimulus": "<p><strong>Bintang yang Redup</strong></p>\n<p>Dika adalah anak yang pandai bermain biola. Setiap latihan, ia selalu menjadi yang pertama datang dan terakhir pulang. Namun, menjelang lomba musik antarsekolah, ia mendengar kabar bahwa peserta dari sekolah lain adalah juara nasional dua tahun berturut-turut.</p>\n<p>Sejak hari itu, semangat Dika perlahan padam. Ia mulai sering absen latihan. Ketika ditanya, ia selalu berkata, \"Untuk apa? Kita pasti kalah.\"</p>\n<p>Bu Reni, guru musiknya, memanggil Dika ke ruang musik.</p>\n<p>\"Dika, kamu tahu kenapa bintang tetap bersinar meski siang hari?\" tanya Bu Reni.</p>\n<p>Dika menggeleng bingung.</p>\n<p>\"Karena bintang tidak berhenti memancarkan cahaya hanya karena ada matahari yang lebih terang. Begitu pun kamu. Pesaing yang kuat seharusnya membuatmu bersinar lebih keras, bukan memadamkan cahayamu.\"</p>\n<p>Dika terdiam lama. Air mata menetes pelan di pipinya.</p>\n<p>Esok harinya, Dika kembali datang lebih awal. Jari-jarinya kembali menekan senar biola dengan penuh keyakinan.</p>\n<p>Pada hari lomba, Dika tidak meraih juara pertama. Tapi ia berhasil memainkan lagu terbaiknya. Saat turun dari panggung, Bu Reni menyambutnya dengan senyum hangat.</p>\n<p>\"Itulah bintangmu, Dika.\"</p>",
-        "text": "<p>Apa makna perumpamaan yang disampaikan Bu Reni tentang bintang dan matahari?</p>",
+        "text": "<p>Apa makna perumpamaan yang disampaikan Bu Reni tentang bintang dan matahari?</p>\n",
         "options": [
           {
             "id": "A",
@@ -13121,8 +13099,7 @@ const questions = {
       {
         "id": 9,
         "type": "true-false-statements",
-        "stimulus": "<p><strong>Bintang yang Redup</strong></p>\n<p>Dika adalah anak yang pandai bermain biola. Setiap latihan, ia selalu menjadi yang pertama datang dan terakhir pulang. Namun, menjelang lomba musik antarsekolah, ia mendengar kabar bahwa peserta dari sekolah lain adalah juara nasional dua tahun berturut-turut.</p>\n<p>Sejak hari itu, semangat Dika perlahan padam. Ia mulai sering absen latihan. Ketika ditanya, ia selalu berkata, \"Untuk apa? Kita pasti kalah.\"</p>\n<p>Bu Reni, guru musiknya, memanggil Dika ke ruang musik.</p>\n<p>\"Dika, kamu tahu kenapa bintang tetap bersinar meski siang hari?\" tanya Bu Reni.</p>\n<p>Dika menggeleng bingung.</p>\n<p>\"Karena bintang tidak berhenti memancarkan cahaya hanya karena ada matahari yang lebih terang. Begitu pun kamu. Pesaing yang kuat seharusnya membuatmu bersinar lebih keras, bukan memadamkan cahayamu.\"</p>\n<p>Dika terdiam lama. Air mata menetes pelan di pipinya.</p>\n<p>Esok harinya, Dika kembali datang lebih awal. Jari-jarinya kembali menekan senar biola dengan penuh keyakinan.</p>\n<p>Pada hari lomba, Dika tidak meraih juara pertama. Tapi ia berhasil memainkan lagu terbaiknya. Saat turun dari panggung, Bu Reni menyambutnya dengan senyum hangat.</p>\n<p>\"Itulah bintangmu, Dika.\"</p>",
-        "text": "<p>Pak Hendra telah membaca cerita tersebut dan berpendapat tentang akhir cerita. Klik pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berdasarkan isi teks!</p>",
+        "text": "<p>Pak Hendra telah membaca cerita tersebut dan berpendapat tentang akhir cerita. Klik pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berdasarkan isi teks!</p>\n",
         "options": [],
         "statements": [
           {
@@ -13140,7 +13117,8 @@ const questions = {
             "text": "<p>Bu Reni berperan penting dalam membantu Dika menemukan kembali kepercayaan dirinya.</p>",
             "correctAnswer": "benar"
           }
-        ]
+        ],
+        "stimulus": "<p><strong>Bintang yang Redup</strong></p>\n<p>Dika adalah anak yang pandai bermain biola. Setiap latihan, ia selalu menjadi yang pertama datang dan terakhir pulang. Namun, menjelang lomba musik antarsekolah, ia mendengar kabar bahwa peserta dari sekolah lain adalah juara nasional dua tahun berturut-turut.</p>\n<p>Sejak hari itu, semangat Dika perlahan padam. Ia mulai sering absen latihan. Ketika ditanya, ia selalu berkata, \"Untuk apa? Kita pasti kalah.\"</p>\n<p>Bu Reni, guru musiknya, memanggil Dika ke ruang musik.</p>\n<p>\"Dika, kamu tahu kenapa bintang tetap bersinar meski siang hari?\" tanya Bu Reni.</p>\n<p>Dika menggeleng bingung.</p>\n<p>\"Karena bintang tidak berhenti memancarkan cahaya hanya karena ada matahari yang lebih terang. Begitu pun kamu. Pesaing yang kuat seharusnya membuatmu bersinar lebih keras, bukan memadamkan cahayamu.\"</p>\n<p>Dika terdiam lama. Air mata menetes pelan di pipinya.</p>\n<p>Esok harinya, Dika kembali datang lebih awal. Jari-jarinya kembali menekan senar biola dengan penuh keyakinan.</p>\n<p>Pada hari lomba, Dika tidak meraih juara pertama. Tapi ia berhasil memainkan lagu terbaiknya. Saat turun dari panggung, Bu Reni menyambutnya dengan senyum hangat.</p>\n<p>\"Itulah bintangmu, Dika.\"</p>"
       },
       {
         "id": 10,
@@ -13811,7 +13789,7 @@ const questions = {
         "id": 7,
         "type": "multiple-answer",
         "stimulus": "<p><strong>Burung Merak yang Lupa Diri</strong></p>\n<p>Di hutan yang asri, hiduplah seekor burung merak bernama Miko yang terkenal karena bulunya yang indah dan berwarna-warni. Setiap kali melewati kolam, Miko berhenti untuk mengagumi bayangannya sendiri.</p>\n<p>Suatu pagi, seekor merpati bernama Meri mendekatinya. \"Miko, ada anak burung pipit yang jatuh dari sarangnya. Maukah kamu membantu membawanya ke atas?\"</p>\n<p>\"Aku? Membawa burung kotor itu? Tentu tidak. Nanti buluku kotor,\" tolak Miko sambil membalikkan badan.</p>\n<p>Sore harinya, datang badai besar. Pohon tempat Miko biasa bertengger roboh. Miko tidak sempat terbang dan sayapnya terjepit dahan.</p>\n<p>Meri yang melihat kejadian itu langsung memanggil kawanan burung lain untuk membantu. Bersama-sama mereka mengangkat dahan dan membebaskan Miko.</p>\n<p>Miko merunduk malu. \"Mengapa kalian mau menolongku, padahal aku tadi menolak membantu?\"</p>\n<p>Meri menjawab dengan tenang, \"Karena kebaikan bukan soal siapa yang layak menerima, tapi soal pilihan kita untuk berbuat baik.\"</p>\n<p>Miko menunduk panjang. Sejak hari itu, ia tidak lagi hanya memikirkan keindahan bulunya, melainkan juga keindahan perilakunya.</p>",
-        "text": "<p>Apa saja yang dilakukan Meri dalam cerita tersebut? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>",
+        "text": "<p>Apa saja yang dilakukan Meri dalam cerita tersebut? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>\n",
         "options": [
           {
             "id": "A",
@@ -13835,7 +13813,7 @@ const questions = {
         "id": 8,
         "type": "multiple-choice",
         "stimulus": "<p><strong>Burung Merak yang Lupa Diri</strong></p>\n<p>Di hutan yang asri, hiduplah seekor burung merak bernama Miko yang terkenal karena bulunya yang indah dan berwarna-warni. Setiap kali melewati kolam, Miko berhenti untuk mengagumi bayangannya sendiri.</p>\n<p>Suatu pagi, seekor merpati bernama Meri mendekatinya. \"Miko, ada anak burung pipit yang jatuh dari sarangnya. Maukah kamu membantu membawanya ke atas?\"</p>\n<p>\"Aku? Membawa burung kotor itu? Tentu tidak. Nanti buluku kotor,\" tolak Miko sambil membalikkan badan.</p>\n<p>Sore harinya, datang badai besar. Pohon tempat Miko biasa bertengger roboh. Miko tidak sempat terbang dan sayapnya terjepit dahan.</p>\n<p>Meri yang melihat kejadian itu langsung memanggil kawanan burung lain untuk membantu. Bersama-sama mereka mengangkat dahan dan membebaskan Miko.</p>\n<p>Miko merunduk malu. \"Mengapa kalian mau menolongku, padahal aku tadi menolak membantu?\"</p>\n<p>Meri menjawab dengan tenang, \"Karena kebaikan bukan soal siapa yang layak menerima, tapi soal pilihan kita untuk berbuat baik.\"</p>\n<p>Miko menunduk panjang. Sejak hari itu, ia tidak lagi hanya memikirkan keindahan bulunya, melainkan juga keindahan perilakunya.</p>",
-        "text": "<p>Apa peristiwa yang membuat Miko akhirnya berubah menjadi lebih baik?</p>",
+        "text": "<p>Apa peristiwa yang membuat Miko akhirnya berubah menjadi lebih baik?</p>\n",
         "options": [
           {
             "id": "A",
@@ -13859,8 +13837,7 @@ const questions = {
       {
         "id": 9,
         "type": "true-false-statements",
-        "stimulus": "<p><strong>Burung Merak yang Lupa Diri</strong></p>\n<p>Di hutan yang asri, hiduplah seekor burung merak bernama Miko yang terkenal karena bulunya yang indah dan berwarna-warni. Setiap kali melewati kolam, Miko berhenti untuk mengagumi bayangannya sendiri.</p>\n<p>Suatu pagi, seekor merpati bernama Meri mendekatinya. \"Miko, ada anak burung pipit yang jatuh dari sarangnya. Maukah kamu membantu membawanya ke atas?\"</p>\n<p>\"Aku? Membawa burung kotor itu? Tentu tidak. Nanti buluku kotor,\" tolak Miko sambil membalikkan badan.</p>\n<p>Sore harinya, datang badai besar. Pohon tempat Miko biasa bertengger roboh. Miko tidak sempat terbang dan sayapnya terjepit dahan.</p>\n<p>Meri yang melihat kejadian itu langsung memanggil kawanan burung lain untuk membantu. Bersama-sama mereka mengangkat dahan dan membebaskan Miko.</p>\n<p>Miko merunduk malu. \"Mengapa kalian mau menolongku, padahal aku tadi menolak membantu?\"</p>\n<p>Meri menjawab dengan tenang, \"Karena kebaikan bukan soal siapa yang layak menerima, tapi soal pilihan kita untuk berbuat baik.\"</p>\n<p>Miko menunduk panjang. Sejak hari itu, ia tidak lagi hanya memikirkan keindahan bulunya, melainkan juga keindahan perilakunya.</p>",
-        "text": "<p>Dara telah membaca cerita tersebut dan merasakan berbagai reaksi. Bagaimana reaksi Dara saat membaca akhir cerita tersebut?</p>\n<p>Klik pada pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berdasarkan isi teks!</p>",
+        "text": "<p>Dara telah membaca cerita tersebut dan merasakan berbagai reaksi. Bagaimana reaksi Dara saat membaca akhir cerita tersebut?</p>\n<p>Klik pada pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berdasarkan isi teks!</p>\n",
         "options": [],
         "statements": [
           {
@@ -13878,7 +13855,8 @@ const questions = {
             "text": "<p>Lega karena Miko akhirnya menyadari kesalahannya dan ingin berubah.</p>",
             "correctAnswer": "benar"
           }
-        ]
+        ],
+        "stimulus": "<p><strong>Burung Merak yang Lupa Diri</strong></p>\n<p>Di hutan yang asri, hiduplah seekor burung merak bernama Miko yang terkenal karena bulunya yang indah dan berwarna-warni. Setiap kali melewati kolam, Miko berhenti untuk mengagumi bayangannya sendiri.</p>\n<p>Suatu pagi, seekor merpati bernama Meri mendekatinya. \"Miko, ada anak burung pipit yang jatuh dari sarangnya. Maukah kamu membantu membawanya ke atas?\"</p>\n<p>\"Aku? Membawa burung kotor itu? Tentu tidak. Nanti buluku kotor,\" tolak Miko sambil membalikkan badan.</p>\n<p>Sore harinya, datang badai besar. Pohon tempat Miko biasa bertengger roboh. Miko tidak sempat terbang dan sayapnya terjepit dahan.</p>\n<p>Meri yang melihat kejadian itu langsung memanggil kawanan burung lain untuk membantu. Bersama-sama mereka mengangkat dahan dan membebaskan Miko.</p>\n<p>Miko merunduk malu. \"Mengapa kalian mau menolongku, padahal aku tadi menolak membantu?\"</p>\n<p>Meri menjawab dengan tenang, \"Karena kebaikan bukan soal siapa yang layak menerima, tapi soal pilihan kita untuk berbuat baik.\"</p>\n<p>Miko menunduk panjang. Sejak hari itu, ia tidak lagi hanya memikirkan keindahan bulunya, melainkan juga keindahan perilakunya.</p>"
       },
       {
         "id": 10,
@@ -14549,7 +14527,7 @@ const questions = {
         "id": 7,
         "type": "multiple-answer",
         "stimulus": "<p><strong>Si Elang yang Melupakan Akarnya</strong></p>\n<p>Di puncak pegunungan yang tinggi, hiduplah seekor elang muda bernama Elco. Sejak kecil, Elco diasuh oleh induknya dengan penuh kasih sayang. Induknya mengajarinya terbang, berburu, dan bertahan hidup.</p>\n<p>Suatu hari, Elco berhasil terbang lebih tinggi dari elang-elang lain di kawanannya. Ia pun merasa dirinya paling hebat.</p>\n<p>\"Aku tidak perlu siapa pun. Aku bisa terbang sendiri ke mana saja,\" ujar Elco dengan nada angkuh.</p>\n<p>Ia mulai jarang pulang ke sarang. Ia tidak lagi mau berbagi hasil buruan dengan elang-elang yang lebih tua atau lebih lemah.</p>\n<p>\"Mereka lambat dan tidak berguna,\" pikir Elco.</p>\n<p>Suatu ketika, badai besar melanda pegunungan. Angin kencang memporak-porandakan sarang Elco yang ia bangun sendiri jauh dari kawanan. Elco terluka dan tidak bisa terbang.</p>\n<p>Dalam keadaan lemah dan kedinginan, Elco mendengar suara sayap yang akrab. Induknya datang, bersama beberapa elang tua dari kawanannya.</p>\n<p>\"Mengapa ibu masih mau menolongku?\" tanya Elco dengan suara gemetar.</p>\n<p>\"Karena kamu bagian dari kami, Elco. Sekuat apa pun kamu, badai tidak bisa kamu hadapi sendirian,\" jawab induknya lembut.</p>\n<p>Elco menunduk, matanya berkaca-kaca. \"Maafkan aku, Bu. Aku terlalu tinggi hati hingga lupa betapa berartinya kalian.\"</p>\n<p>Sejak itu, Elco menjadi elang yang paling setia kepada kawanannya.</p>",
-        "text": "<p>Apa yang menyebabkan Elco berubah menjadi angkuh? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>",
+        "text": "<p>Apa yang menyebabkan Elco berubah menjadi angkuh? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>\n",
         "options": [
           {
             "id": "A",
@@ -14573,7 +14551,7 @@ const questions = {
         "id": 8,
         "type": "multiple-choice",
         "stimulus": "<p><strong>Si Elang yang Melupakan Akarnya</strong></p>\n<p>Di puncak pegunungan yang tinggi, hiduplah seekor elang muda bernama Elco. Sejak kecil, Elco diasuh oleh induknya dengan penuh kasih sayang. Induknya mengajarinya terbang, berburu, dan bertahan hidup.</p>\n<p>Suatu hari, Elco berhasil terbang lebih tinggi dari elang-elang lain di kawanannya. Ia pun merasa dirinya paling hebat.</p>\n<p>\"Aku tidak perlu siapa pun. Aku bisa terbang sendiri ke mana saja,\" ujar Elco dengan nada angkuh.</p>\n<p>Ia mulai jarang pulang ke sarang. Ia tidak lagi mau berbagi hasil buruan dengan elang-elang yang lebih tua atau lebih lemah.</p>\n<p>\"Mereka lambat dan tidak berguna,\" pikir Elco.</p>\n<p>Suatu ketika, badai besar melanda pegunungan. Angin kencang memporak-porandakan sarang Elco yang ia bangun sendiri jauh dari kawanan. Elco terluka dan tidak bisa terbang.</p>\n<p>Dalam keadaan lemah dan kedinginan, Elco mendengar suara sayap yang akrab. Induknya datang, bersama beberapa elang tua dari kawanannya.</p>\n<p>\"Mengapa ibu masih mau menolongku?\" tanya Elco dengan suara gemetar.</p>\n<p>\"Karena kamu bagian dari kami, Elco. Sekuat apa pun kamu, badai tidak bisa kamu hadapi sendirian,\" jawab induknya lembut.</p>\n<p>Elco menunduk, matanya berkaca-kaca. \"Maafkan aku, Bu. Aku terlalu tinggi hati hingga lupa betapa berartinya kalian.\"</p>\n<p>Sejak itu, Elco menjadi elang yang paling setia kepada kawanannya.</p>",
-        "text": "<p>Apa yang membuat Elco akhirnya menyadari kesalahannya?</p>",
+        "text": "<p>Apa yang membuat Elco akhirnya menyadari kesalahannya?</p>\n",
         "options": [
           {
             "id": "A",
@@ -14597,8 +14575,7 @@ const questions = {
       {
         "id": 9,
         "type": "true-false-statements",
-        "stimulus": "<p><strong>Si Elang yang Melupakan Akarnya</strong></p>\n<p>Di puncak pegunungan yang tinggi, hiduplah seekor elang muda bernama Elco. Sejak kecil, Elco diasuh oleh induknya dengan penuh kasih sayang. Induknya mengajarinya terbang, berburu, dan bertahan hidup.</p>\n<p>Suatu hari, Elco berhasil terbang lebih tinggi dari elang-elang lain di kawanannya. Ia pun merasa dirinya paling hebat.</p>\n<p>\"Aku tidak perlu siapa pun. Aku bisa terbang sendiri ke mana saja,\" ujar Elco dengan nada angkuh.</p>\n<p>Ia mulai jarang pulang ke sarang. Ia tidak lagi mau berbagi hasil buruan dengan elang-elang yang lebih tua atau lebih lemah.</p>\n<p>\"Mereka lambat dan tidak berguna,\" pikir Elco.</p>\n<p>Suatu ketika, badai besar melanda pegunungan. Angin kencang memporak-porandakan sarang Elco yang ia bangun sendiri jauh dari kawanan. Elco terluka dan tidak bisa terbang.</p>\n<p>Dalam keadaan lemah dan kedinginan, Elco mendengar suara sayap yang akrab. Induknya datang, bersama beberapa elang tua dari kawanannya.</p>\n<p>\"Mengapa ibu masih mau menolongku?\" tanya Elco dengan suara gemetar.</p>\n<p>\"Karena kamu bagian dari kami, Elco. Sekuat apa pun kamu, badai tidak bisa kamu hadapi sendirian,\" jawab induknya lembut.</p>\n<p>Elco menunduk, matanya berkaca-kaca. \"Maafkan aku, Bu. Aku terlalu tinggi hati hingga lupa betapa berartinya kalian.\"</p>\n<p>Sejak itu, Elco menjadi elang yang paling setia kepada kawanannya.</p>",
-        "text": "<p>Nara telah membaca cerita tersebut. Ia memberikan beberapa tanggapan atas akhir cerita itu. Klik pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap tanggapan Nara!</p>",
+        "text": "<p>Nara telah membaca cerita tersebut. Ia memberikan beberapa tanggapan atas akhir cerita itu. Klik pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap tanggapan Nara!</p>\n",
         "options": [],
         "statements": [
           {
@@ -14616,7 +14593,8 @@ const questions = {
             "text": "<p>Kagum karena Elco akhirnya mau mengakui kesalahannya dan meminta maaf dengan tulus.</p>",
             "correctAnswer": "benar"
           }
-        ]
+        ],
+        "stimulus": "<p><strong>Si Elang yang Melupakan Akarnya</strong></p>\n<p>Di puncak pegunungan yang tinggi, hiduplah seekor elang muda bernama Elco. Sejak kecil, Elco diasuh oleh induknya dengan penuh kasih sayang. Induknya mengajarinya terbang, berburu, dan bertahan hidup.</p>\n<p>Suatu hari, Elco berhasil terbang lebih tinggi dari elang-elang lain di kawanannya. Ia pun merasa dirinya paling hebat.</p>\n<p>\"Aku tidak perlu siapa pun. Aku bisa terbang sendiri ke mana saja,\" ujar Elco dengan nada angkuh.</p>\n<p>Ia mulai jarang pulang ke sarang. Ia tidak lagi mau berbagi hasil buruan dengan elang-elang yang lebih tua atau lebih lemah.</p>\n<p>\"Mereka lambat dan tidak berguna,\" pikir Elco.</p>\n<p>Suatu ketika, badai besar melanda pegunungan. Angin kencang memporak-porandakan sarang Elco yang ia bangun sendiri jauh dari kawanan. Elco terluka dan tidak bisa terbang.</p>\n<p>Dalam keadaan lemah dan kedinginan, Elco mendengar suara sayap yang akrab. Induknya datang, bersama beberapa elang tua dari kawanannya.</p>\n<p>\"Mengapa ibu masih mau menolongku?\" tanya Elco dengan suara gemetar.</p>\n<p>\"Karena kamu bagian dari kami, Elco. Sekuat apa pun kamu, badai tidak bisa kamu hadapi sendirian,\" jawab induknya lembut.</p>\n<p>Elco menunduk, matanya berkaca-kaca. \"Maafkan aku, Bu. Aku terlalu tinggi hati hingga lupa betapa berartinya kalian.\"</p>\n<p>Sejak itu, Elco menjadi elang yang paling setia kepada kawanannya.</p>"
       },
       {
         "id": 10,
@@ -15286,7 +15264,7 @@ const questions = {
         "id": 7,
         "type": "multiple-answer",
         "stimulus": "<p><strong>Singa yang Serakah</strong></p>\n<p>Di sebuah padang rumput yang subur, hiduplah seekor singa bernama Raja yang ditakuti semua hewan. Suatu hari, ia menemukan sebuah kolam ikan yang besar dan jernih.</p>\n<p>\"Semua ikan di kolam ini milikku!\" seru Raja dengan lantang.</p>\n<p>Ia menjaga kolam itu siang dan malam agar hewan lain tidak bisa mengambil seekor ikan pun. Padahal, ia hanya bisa memakan beberapa ekor saja dalam sehari.</p>\n<p>Biruang si Biruang mendekati Raja dengan sopan.</p>\n<p>\"Raja, kolam ini cukup besar untuk kita bagi bersama. Ikan di sini berlimpah. Kita semua perlu makan,\" kata Biruang dengan tenang.</p>\n<p>\"Tidak! Semuanya milikku. Pergi!\" geram Raja.</p>\n<p>Minggu-minggu berlalu. Karena tidak ada yang menjaga kebersihan kolam, ikan-ikan mulai mati dan air kolam menjadi keruh dan berbau. Raja tidak bisa memakan ikan yang sudah mati. Akhirnya, ia justru kelaparan di tepi kolam yang dulu ia perebutkan.</p>\n<p>Raja menundukkan kepalanya.</p>\n<p>\"Aku terlalu serakah. Kalau saja aku mau berbagi, kolam ini pasti masih bersih dan ikan masih berlimpah,\" sesal Raja dalam hati.</p>\n<p>Ia pun mendatangi Biruang dan meminta maaf. Sejak hari itu, Raja belajar untuk berbagi dan tidak memonopoli sumber daya alam di padang rumput.</p>",
-        "text": "<p>Apa saja yang dilakukan Raja terhadap kolam ikan tersebut? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>",
+        "text": "<p>Apa saja yang dilakukan Raja terhadap kolam ikan tersebut? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>\n",
         "options": [
           {
             "id": "A",
@@ -15310,7 +15288,7 @@ const questions = {
         "id": 8,
         "type": "multiple-choice",
         "stimulus": "<p><strong>Singa yang Serakah</strong></p>\n<p>Di sebuah padang rumput yang subur, hiduplah seekor singa bernama Raja yang ditakuti semua hewan. Suatu hari, ia menemukan sebuah kolam ikan yang besar dan jernih.</p>\n<p>\"Semua ikan di kolam ini milikku!\" seru Raja dengan lantang.</p>\n<p>Ia menjaga kolam itu siang dan malam agar hewan lain tidak bisa mengambil seekor ikan pun. Padahal, ia hanya bisa memakan beberapa ekor saja dalam sehari.</p>\n<p>Biruang si Biruang mendekati Raja dengan sopan.</p>\n<p>\"Raja, kolam ini cukup besar untuk kita bagi bersama. Ikan di sini berlimpah. Kita semua perlu makan,\" kata Biruang dengan tenang.</p>\n<p>\"Tidak! Semuanya milikku. Pergi!\" geram Raja.</p>\n<p>Minggu-minggu berlalu. Karena tidak ada yang menjaga kebersihan kolam, ikan-ikan mulai mati dan air kolam menjadi keruh dan berbau. Raja tidak bisa memakan ikan yang sudah mati. Akhirnya, ia justru kelaparan di tepi kolam yang dulu ia perebutkan.</p>\n<p>Raja menundukkan kepalanya.</p>\n<p>\"Aku terlalu serakah. Kalau saja aku mau berbagi, kolam ini pasti masih bersih dan ikan masih berlimpah,\" sesal Raja dalam hati.</p>\n<p>Ia pun mendatangi Biruang dan meminta maaf. Sejak hari itu, Raja belajar untuk berbagi dan tidak memonopoli sumber daya alam di padang rumput.</p>",
-        "text": "<p>Apa kejadian yang akhirnya membuat Raja menyesali sikapnya?</p>",
+        "text": "<p>Apa kejadian yang akhirnya membuat Raja menyesali sikapnya?</p>\n",
         "options": [
           {
             "id": "A",
@@ -15334,8 +15312,7 @@ const questions = {
       {
         "id": 9,
         "type": "true-false-statements",
-        "stimulus": "<p><strong>Singa yang Serakah</strong></p>\n<p>Di sebuah padang rumput yang subur, hiduplah seekor singa bernama Raja yang ditakuti semua hewan. Suatu hari, ia menemukan sebuah kolam ikan yang besar dan jernih.</p>\n<p>\"Semua ikan di kolam ini milikku!\" seru Raja dengan lantang.</p>\n<p>Ia menjaga kolam itu siang dan malam agar hewan lain tidak bisa mengambil seekor ikan pun. Padahal, ia hanya bisa memakan beberapa ekor saja dalam sehari.</p>\n<p>Biruang si Biruang mendekati Raja dengan sopan.</p>\n<p>\"Raja, kolam ini cukup besar untuk kita bagi bersama. Ikan di sini berlimpah. Kita semua perlu makan,\" kata Biruang dengan tenang.</p>\n<p>\"Tidak! Semuanya milikku. Pergi!\" geram Raja.</p>\n<p>Minggu-minggu berlalu. Karena tidak ada yang menjaga kebersihan kolam, ikan-ikan mulai mati dan air kolam menjadi keruh dan berbau. Raja tidak bisa memakan ikan yang sudah mati. Akhirnya, ia justru kelaparan di tepi kolam yang dulu ia perebutkan.</p>\n<p>Raja menundukkan kepalanya.</p>\n<p>\"Aku terlalu serakah. Kalau saja aku mau berbagi, kolam ini pasti masih bersih dan ikan masih berlimpah,\" sesal Raja dalam hati.</p>\n<p>Ia pun mendatangi Biruang dan meminta maaf. Sejak hari itu, Raja belajar untuk berbagi dan tidak memonopoli sumber daya alam di padang rumput.</p>",
-        "text": "<p>Naya telah membaca cerita tersebut. Ia merasakan beberapa reaksi saat membacanya. Klik pada pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berikut!</p>",
+        "text": "<p>Naya telah membaca cerita tersebut. Ia merasakan beberapa reaksi saat membacanya. Klik pada pilihan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berikut!</p>\n",
         "options": [],
         "statements": [
           {
@@ -15353,7 +15330,8 @@ const questions = {
             "text": "<p>Kagum terhadap kesabaran dan kebijaksanaan Biruang yang tetap mau berbicara baik-baik.</p>",
             "correctAnswer": "benar"
           }
-        ]
+        ],
+        "stimulus": "<p><strong>Singa yang Serakah</strong></p>\n<p>Di sebuah padang rumput yang subur, hiduplah seekor singa bernama Raja yang ditakuti semua hewan. Suatu hari, ia menemukan sebuah kolam ikan yang besar dan jernih.</p>\n<p>\"Semua ikan di kolam ini milikku!\" seru Raja dengan lantang.</p>\n<p>Ia menjaga kolam itu siang dan malam agar hewan lain tidak bisa mengambil seekor ikan pun. Padahal, ia hanya bisa memakan beberapa ekor saja dalam sehari.</p>\n<p>Biruang si Biruang mendekati Raja dengan sopan.</p>\n<p>\"Raja, kolam ini cukup besar untuk kita bagi bersama. Ikan di sini berlimpah. Kita semua perlu makan,\" kata Biruang dengan tenang.</p>\n<p>\"Tidak! Semuanya milikku. Pergi!\" geram Raja.</p>\n<p>Minggu-minggu berlalu. Karena tidak ada yang menjaga kebersihan kolam, ikan-ikan mulai mati dan air kolam menjadi keruh dan berbau. Raja tidak bisa memakan ikan yang sudah mati. Akhirnya, ia justru kelaparan di tepi kolam yang dulu ia perebutkan.</p>\n<p>Raja menundukkan kepalanya.</p>\n<p>\"Aku terlalu serakah. Kalau saja aku mau berbagi, kolam ini pasti masih bersih dan ikan masih berlimpah,\" sesal Raja dalam hati.</p>\n<p>Ia pun mendatangi Biruang dan meminta maaf. Sejak hari itu, Raja belajar untuk berbagi dan tidak memonopoli sumber daya alam di padang rumput.</p>"
       },
       {
         "id": 10,
@@ -16024,7 +16002,7 @@ const questions = {
         "id": 7,
         "type": "multiple-answer",
         "stimulus": "<p><strong>Burung Merak yang Kehilangan Bulu</strong></p>\n<p>Di taman bunga yang indah, hiduplah seekor burung merak bernama Marak. Ia dikenal sebagai burung paling cantik karena bulu ekornya yang berwarna-warni dan berkilau. Marak sangat bangga dengan penampilannya dan sering memamerkan bulunya kepada hewan-hewan lain.</p>\n<p>Suatu hari, seekor kupu-kupu bernama Kiri datang hinggap di dekat Marak.</p>\n<p>\"Wah, bungamu sangat indah, Kiri!\" seru seekor lebah kepada Kiri.</p>\n<p>\"Ah, keindahan bunganya tidak ada apa-apanya dibandingkan buluku,\" potong Marak sambil mengembangkan ekornya.</p>\n<p>Kiri hanya diam. Ia terbang menjauh dengan tenang.</p>\n<p>Beberapa hari kemudian, badai besar menerjang taman. Angin kencang merontokkan sebagian besar bulu ekor Marak. Marak sangat sedih dan malu. Ia bersembunyi di balik semak-semak karena tidak ingin dilihat hewan lain.</p>\n<p>Kiri yang mengetahui hal ini mendatangi Marak.</p>\n<p>\"Marak, mengapa kamu bersembunyi?\"</p>\n<p>\"Aku sudah tidak cantik lagi. Buluku rontok. Tidak ada yang mau memandangku,\" jawab Marak lirih.</p>\n<p>\"Selama ini kamu dikenal karena bulumu, bukan karena siapa dirimu sesungguhnya. Sekarang adalah kesempatan untuk dikenal karena kebaikanmu,\" kata Kiri bijaksana.</p>\n<p>Kata-kata itu menghujam hati Marak. Ia pun mulai keluar dari persembunyiannya dan belajar bersikap rendah hati.</p>",
-        "text": "<p>Apa saja sikap buruk Marak yang ditunjukkan dalam cerita sebelum bulunya rontok? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>",
+        "text": "<p>Apa saja sikap buruk Marak yang ditunjukkan dalam cerita sebelum bulunya rontok? Klik pada setiap pilihan jawaban benar! Jawaban benar lebih dari satu.</p>\n",
         "options": [
           {
             "id": "A",
@@ -16048,7 +16026,7 @@ const questions = {
         "id": 8,
         "type": "multiple-choice",
         "stimulus": "<p><strong>Burung Merak yang Kehilangan Bulu</strong></p>\n<p>Di taman bunga yang indah, hiduplah seekor burung merak bernama Marak. Ia dikenal sebagai burung paling cantik karena bulu ekornya yang berwarna-warni dan berkilau. Marak sangat bangga dengan penampilannya dan sering memamerkan bulunya kepada hewan-hewan lain.</p>\n<p>Suatu hari, seekor kupu-kupu bernama Kiri datang hinggap di dekat Marak.</p>\n<p>\"Wah, bungamu sangat indah, Kiri!\" seru seekor lebah kepada Kiri.</p>\n<p>\"Ah, keindahan bunganya tidak ada apa-apanya dibandingkan buluku,\" potong Marak sambil mengembangkan ekornya.</p>\n<p>Kiri hanya diam. Ia terbang menjauh dengan tenang.</p>\n<p>Beberapa hari kemudian, badai besar menerjang taman. Angin kencang merontokkan sebagian besar bulu ekor Marak. Marak sangat sedih dan malu. Ia bersembunyi di balik semak-semak karena tidak ingin dilihat hewan lain.</p>\n<p>Kiri yang mengetahui hal ini mendatangi Marak.</p>\n<p>\"Marak, mengapa kamu bersembunyi?\"</p>\n<p>\"Aku sudah tidak cantik lagi. Buluku rontok. Tidak ada yang mau memandangku,\" jawab Marak lirih.</p>\n<p>\"Selama ini kamu dikenal karena bulumu, bukan karena siapa dirimu sesungguhnya. Sekarang adalah kesempatan untuk dikenal karena kebaikanmu,\" kata Kiri bijaksana.</p>\n<p>Kata-kata itu menghujam hati Marak. Ia pun mulai keluar dari persembunyiannya dan belajar bersikap rendah hati.</p>",
-        "text": "<p>Mengapa Marak bersembunyi di balik semak-semak setelah badai?</p>",
+        "text": "<p>Mengapa Marak bersembunyi di balik semak-semak setelah badai?</p>\n",
         "options": [
           {
             "id": "A",
@@ -16072,8 +16050,7 @@ const questions = {
       {
         "id": 9,
         "type": "true-false-statements",
-        "stimulus": "<p><strong>Burung Merak yang Kehilangan Bulu</strong></p>\n<p>Di taman bunga yang indah, hiduplah seekor burung merak bernama Marak. Ia dikenal sebagai burung paling cantik karena bulu ekornya yang berwarna-warni dan berkilau. Marak sangat bangga dengan penampilannya dan sering memamerkan bulunya kepada hewan-hewan lain.</p>\n<p>Suatu hari, seekor kupu-kupu bernama Kiri datang hinggap di dekat Marak.</p>\n<p>\"Wah, bungamu sangat indah, Kiri!\" seru seekor lebah kepada Kiri.</p>\n<p>\"Ah, keindahan bunganya tidak ada apa-apanya dibandingkan buluku,\" potong Marak sambil mengembangkan ekornya.</p>\n<p>Kiri hanya diam. Ia terbang menjauh dengan tenang.</p>\n<p>Beberapa hari kemudian, badai besar menerjang taman. Angin kencang merontokkan sebagian besar bulu ekor Marak. Marak sangat sedih dan malu. Ia bersembunyi di balik semak-semak karena tidak ingin dilihat hewan lain.</p>\n<p>Kiri yang mengetahui hal ini mendatangi Marak.</p>\n<p>\"Marak, mengapa kamu bersembunyi?\"</p>\n<p>\"Aku sudah tidak cantik lagi. Buluku rontok. Tidak ada yang mau memandangku,\" jawab Marak lirih.</p>\n<p>\"Selama ini kamu dikenal karena bulumu, bukan karena siapa dirimu sesungguhnya. Sekarang adalah kesempatan untuk dikenal karena kebaikanmu,\" kata Kiri bijaksana.</p>\n<p>Kata-kata itu menghujam hati Marak. Ia pun mulai keluar dari persembunyiannya dan belajar bersikap rendah hati.</p>",
-        "text": "<p>Kiri menyampaikan nasihat penting kepada Marak di akhir cerita. Tentukan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berikut berdasarkan isi teks!</p>",
+        "text": "<p>Kiri menyampaikan nasihat penting kepada Marak di akhir cerita. Tentukan <strong>Benar</strong> atau <strong>Salah</strong> untuk setiap pernyataan berikut berdasarkan isi teks!</p>\n",
         "options": [],
         "statements": [
           {
@@ -16091,7 +16068,8 @@ const questions = {
             "text": "<p>Reaksi Marak terhadap nasihat Kiri menunjukkan bahwa ia mau berubah menjadi lebih baik.</p>",
             "correctAnswer": "benar"
           }
-        ]
+        ],
+        "stimulus": "<p><strong>Burung Merak yang Kehilangan Bulu</strong></p>\n<p>Di taman bunga yang indah, hiduplah seekor burung merak bernama Marak. Ia dikenal sebagai burung paling cantik karena bulu ekornya yang berwarna-warni dan berkilau. Marak sangat bangga dengan penampilannya dan sering memamerkan bulunya kepada hewan-hewan lain.</p>\n<p>Suatu hari, seekor kupu-kupu bernama Kiri datang hinggap di dekat Marak.</p>\n<p>\"Wah, bungamu sangat indah, Kiri!\" seru seekor lebah kepada Kiri.</p>\n<p>\"Ah, keindahan bunganya tidak ada apa-apanya dibandingkan buluku,\" potong Marak sambil mengembangkan ekornya.</p>\n<p>Kiri hanya diam. Ia terbang menjauh dengan tenang.</p>\n<p>Beberapa hari kemudian, badai besar menerjang taman. Angin kencang merontokkan sebagian besar bulu ekor Marak. Marak sangat sedih dan malu. Ia bersembunyi di balik semak-semak karena tidak ingin dilihat hewan lain.</p>\n<p>Kiri yang mengetahui hal ini mendatangi Marak.</p>\n<p>\"Marak, mengapa kamu bersembunyi?\"</p>\n<p>\"Aku sudah tidak cantik lagi. Buluku rontok. Tidak ada yang mau memandangku,\" jawab Marak lirih.</p>\n<p>\"Selama ini kamu dikenal karena bulumu, bukan karena siapa dirimu sesungguhnya. Sekarang adalah kesempatan untuk dikenal karena kebaikanmu,\" kata Kiri bijaksana.</p>\n<p>Kata-kata itu menghujam hati Marak. Ia pun mulai keluar dari persembunyiannya dan belajar bersikap rendah hati.</p>"
       },
       {
         "id": 10,
